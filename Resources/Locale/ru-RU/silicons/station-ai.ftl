@@ -43,3 +43,7 @@ station-ai-core-losing-power = Ваше ядро ИИ питается от ре
 station-ai-core-critical-power = Ваше ядро ИИ имеет критически низкий уровень энергии. Возобновите внешнее питание, иначе может произойти серьёзное повреждение данных!
 
 ai-device-no-access = У вас нет доступа к этому устройству
+
+station-ai-ghost-role-description = Serve the station crew as its ever watchful AI.
+
+station-ai-ghost-role-name = Station AI

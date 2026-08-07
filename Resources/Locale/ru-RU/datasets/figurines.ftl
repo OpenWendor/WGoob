@@ -384,3 +384,15 @@ figurines-mech-generic-2 = ВВВРРРРРР!!
 figurines-mech-generic-3 = ВРРРМММ ВУУРМММ!!
 
 figurines-mech-generic-4 = ДИНЬГ!!
+
+figurines-AI-3 = 01100100 01101001 01100101 00100000 01101101 01100101 01100001 01110100
+
+figurines-AI-6 = { law-antimov-1 }
+
+figurines-AI-7 = { law-nutimov-4 }
+
+figurines-atmostech-8 = Кто-нибудь еще слышит, как трещит стекло?
+
+figurines-atmostech-9 = Я обещаю, что эта камера сгорания абсолютно безопасна и НЕ взорвется
+
+figurines-boxer-6 = В последнее время я появляюсь только на особых мероприятиях.

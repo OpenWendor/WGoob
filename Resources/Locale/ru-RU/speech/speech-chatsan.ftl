@@ -136,3 +136,11 @@ chatsan-word-70 = sybau
 chatsan-replacement-70 = shut your bitch ass up
 chatsan-word-71 = icl
 chatsan-replacement-71 = i can't lie
+
+chatsan-replacement-72 = мужик
+
+chatsan-replacement-73 = ладно
+
+chatsan-word-72 = чел
+
+chatsan-word-73 = лан

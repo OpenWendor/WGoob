@@ -182,3 +182,5 @@ loadout-group-boxer-envirosuit = Экокостюм боксёра
 loadout-group-plasma-tank = Баллон с плазмой
 # Shaft Miner
 loadout-group-shaft-miner-jumpsuit = Комбинезон шахтёра
+
+loadout-group-captain-shoes = Captain shoes

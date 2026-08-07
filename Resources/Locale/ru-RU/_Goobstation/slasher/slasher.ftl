@@ -41,3 +41,47 @@ slasher-massacre-already-activated = Бойня уже активна!
 slasher-relentless-grab-activate = Вы готовитесь схватить свою следующую жертву!
 alerts-slasher-seen-name = Статус наблюдения
 alerts-slasher-seen-desc = Показывает, наблюдают ли за вами в данный момент. Вы не можете входить в бестелесную форму или выходить из неё, пока за вами наблюдают.
+
+slasher-kit-billy = Билли
+
+slasher-kit-billy-desc = «Ну привет.»
+
+slasher-kit-butcher = Мясник
+
+slasher-kit-butcher-desc = Классика. Сварочная маска и фартук для беспощадной машины убийств.
+
+slasher-kit-cannibal = Каннибал
+
+slasher-kit-cannibal-desc = Ужин подан. Секретный ингредиент - экипаж.
+
+slasher-kit-clown = Клоун
+
+slasher-kit-clown-desc = Оказывается, злить Хонкматерь - плохая идея. Хонк!
+
+slasher-kit-cult = Культист
+
+slasher-kit-cult-desc = Поставляется со специальной маской. Древние божества наблюдают с большим интересом.
+
+slasher-kit-glutton = Обжора
+
+slasher-kit-glutton-desc = По коридорам бродит нечто голодное. Оно носит чужую кожу и никогда не насытится.
+
+slasher-kit-hockey = Хоккейная маска
+
+slasher-kit-hockey-desc = Хоккейная маска и мачете. Чего ещё желать?
+
+slasher-kit-maintenance = Ричард
+
+slasher-kit-maintenance-desc = «Тебе нравится причинять людям боль, не так ли?»
+
+slasher-kit-select-button = Выбрать
+
+slasher-kit-select-header = Выберите образ. У каждого - своя музыкальная тема и обличие.
+
+slasher-kit-select-title = Выберите образ
+
+slasher-kit-spring = Костюм кролика
+
+slasher-kit-spring-desc = Поставляется со специальным костюмом на пружинах. Пружины, наверное, выдержат...
+
+slasher-soulsteal-ascendance-clown = КРИТИЧЕСКАЯ ТРЕВОГА: Зафиксирована беспрецедентная ХОНК-сила. Всему персоналу сообщается: на борту нечто глубоко неуравновешенное. Держитесь крепче. ХОНК.

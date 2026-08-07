@@ -43,3 +43,7 @@ research-technology-bluespace-construction-storage = Блюспейс храни
 research-technology-extended-communication = Продвинутая коммуникация
 research-technology-bluespace-munitions = Блюспейс снаряжение
 research-technology-radio-music-communication = Радиомузыка
+
+research-technology-service-energy-chem = Органический электросинтез
+
+research-technology-xeno-compatibility = Ксеносовместимость

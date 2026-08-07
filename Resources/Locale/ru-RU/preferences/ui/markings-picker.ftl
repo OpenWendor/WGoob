@@ -31,3 +31,12 @@ humanoid-marking-modifier-enable = Включить
 
 humanoid-marking-modifier-prototype-id = ID прототипа:
 
+humanoid-marking-modifier-force = Принудительно
+
+humanoid-marking-modifier-ignore-species = Игнорировать рассу
+
+markings-category-SnoutCover = Морда (Поверх)
+
+markings-category-UndergarmentBottom = Нижнее бельё (Низ)
+
+markings-category-UndergarmentTop = Нижнее бельё (Верх)

@@ -22,3 +22,9 @@ marking-ResomiFluffHead = Пух
 marking-ResomiFluffHead-fluff_head = Основной
 marking-ResomiFluffHeadUp = Приподнятый пух
 marking-ResomiFluffHeadUp-fluff_head_up = Основной
+
+marking-ResomiEars = Большие уши
+
+marking-ResomiFeathersBig = Большие хвостовые перья
+
+marking-ResomiFluffyChest = Пышная грудка

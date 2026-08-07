@@ -10,3 +10,5 @@ station-ai-earlyleave-menu-confirm = Подтвердить
 station-ai-earlyleave-menu-deny = Отмена
 station-ai-earlyleave-announcement = { $character } (Станционный ИИ) перешёл в спящий режим!
 station-ai-earlyleave-announcement-sender = Ядро ИИ
+
+station-ai-hologram-horror = Ужасающий

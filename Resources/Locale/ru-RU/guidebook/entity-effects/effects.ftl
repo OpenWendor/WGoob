@@ -521,3 +521,50 @@ reagent-effect-guidebook-add-to-chemicals =
         [1] to
        *[-1] from
     } the solution
+
+reagent-effect-guidebook-knockdown =
+    { $type ->
+        [add]   { $chance ->
+                [1] Вызывает
+                *[other] вызвать
+            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } с накоплением эффекта
+        *[set]  { $chance ->
+                [1] Вызывает
+                *[other] вызвать
+            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
+        [remove]{ $chance ->
+                [1] Удаляет
+                *[other] удалить
+            } { NATURALFIXED($time, 3) } { MANY("секунд", $time) } { LOC($key) }
+    } { $delay ->
+        [0] немедленно
+       *[other]
+            после { NATURALFIXED($delay, 3) } { $delay ->
+                [one] секунду
+                [few] секунды
+               *[other] секунд
+            } задержки
+    }
+reagent-effect-guidebook-status-effect-delay =
+    { $type ->
+        [add]   { $chance ->
+                [1] Вызывает
+                *[other] вызывают
+            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } с накоплением эффекта
+        *[set]  { $chance ->
+                [1] Вызывает
+                *[other] вызывают
+            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { MANY("секунд", $time) } без накопления эффекта
+        [remove]{ $chance ->
+                [1] Удаляет
+                *[other] удаляют
+            } { NATURALFIXED($time, 3) } { MANY("секунд", $time) } { LOC($key) }
+    } { $delay ->
+        [0] немедленно
+       *[other]
+            после { NATURALFIXED($delay, 3) } { $delay ->
+                [one] секунду
+                [few] секунды
+               *[other] секунд
+            } задержки
+    }
