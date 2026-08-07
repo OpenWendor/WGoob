@@ -5,8 +5,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-server-currency-name-singular = Корвух Коин
-server-currency-name-plural = Корвух Коины
+server-currency-name-singular = Аиршипс Коин
+server-currency-name-plural = Аиршипс Коины
 
 ## Команды
 
