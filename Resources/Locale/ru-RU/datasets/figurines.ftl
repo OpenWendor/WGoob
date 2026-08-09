@@ -106,7 +106,6 @@ figurines-qm-5 = Пора потратить все деньги на лотер
 figurines-qm-6 = Viva La Cargonia!
 figurines-qm-7 = Заполните форму.
 figurines-qm-8 = Куда пропали все деньги?
-figurines-qm-9 = 99% азартных игроков бросают прямо перед тем, как сорвать куш!
 figurines-ce-1 = Все на брифинг!
 figurines-ce-2 = Подключить соляры!
 figurines-ce-3 = Как настроить ТЭГ?

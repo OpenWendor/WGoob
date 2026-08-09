@@ -37,8 +37,6 @@
 - type: entity
   parent: BaseAction
   id: ActionMimeInvisibleWall
-  name: ent-ActionMimeInvisibleWall
-  description: ent-ActionMimeInvisibleWall-desc
   components:
   - type: Action
     priority: -1
