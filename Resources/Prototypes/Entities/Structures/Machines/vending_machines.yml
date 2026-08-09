@@ -205,7 +205,7 @@
     pack: CondimentInventory
     offState: off
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/condiments.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/condiments.rsi
     drawdepth: SmallObjects
     layers:
     - state: "off"
@@ -244,7 +244,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/ammo.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/ammo.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -272,7 +272,7 @@
   - type: SpeakOnUIClosed
     pack: BoozeOMatGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/boozeomat.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/boozeomat.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -306,7 +306,7 @@
   - type: SpeakOnUIClosed
     pack: BruiseOMatGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/bruiseomat.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/bruiseomat.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -377,7 +377,7 @@
   - type: SpeakOnUIClosed
     pack: ChefvendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chefvend.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/chefvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -416,7 +416,7 @@
     pack: CigaretteMachineGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/cigs.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/cigs.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -448,7 +448,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/clothing.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/clothing.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -484,7 +484,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/winterdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/winterdrobe.rsi
     layers:
     - state: "off"
       map: [ "enum.VendingMachineVisualLayers.Base" ]
@@ -528,7 +528,7 @@
     pack: HotDrinksMachineGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/coffee.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/coffee.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -575,7 +575,7 @@
     pack: RobustSoftdrinksGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/cola.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/cola.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -625,7 +625,7 @@
   description: It vends cola, in space.
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/cola.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/cola.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -652,7 +652,7 @@
     offState: off
     normalState: normal-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/spaceup.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/spaceup.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -681,7 +681,7 @@
     ejectState: eject-unshaded
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/soda.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/soda.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -713,7 +713,7 @@
     offState: off
     normalState: normal-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/starkist.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/starkist.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -751,7 +751,7 @@
   - type: DatasetVocalizer
     dataset: RobustSoftdrinksAds
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/shamblersjuice.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/shamblersjuice.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -789,7 +789,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/pwrgame.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/pwrgame.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -827,7 +827,7 @@
   - type: SpeakOnUIClosed
     pack: DrGibbGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/gib.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/gib.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -850,7 +850,7 @@
   description: Popular with the administration.
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/smite.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/smite.rsi
     layers:
     - state: "off"
       map: [ "enum.VendingMachineVisualLayers.Base" ]
@@ -898,7 +898,7 @@
     pack: GenericVendGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/dinnerware.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/dinnerware.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -940,7 +940,7 @@
     pack: GenericVendGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/magivend.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/magivend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -980,7 +980,7 @@
   - type: SpeakOnUIClosed
     pack: DiscountDansGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/discount.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/discount.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1011,7 +1011,7 @@
     denyState: deny-unshaded
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/engivend.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/engivend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1091,7 +1091,7 @@
     pack: NanoMedPlusInventory
     offState: off
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/medical.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/medical.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1251,7 +1251,7 @@
     pack: GetmoreChocolateCorpGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/snack.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/snack.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1288,7 +1288,7 @@
     ejectState: eject-unshaded
     denyState: deny-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/sustenance.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/sustenance.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1310,7 +1310,7 @@
   suffix: Blue
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/snack-blue.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/snack-blue.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1332,7 +1332,7 @@
   suffix: Orange
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/snack-orange.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/snack-orange.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1354,7 +1354,7 @@
   suffix: Green
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/snack-green.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/snack-green.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1376,7 +1376,7 @@
   suffix: Teal
   components:
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/snack-teal.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/snack-teal.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1456,7 +1456,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/theater.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/theater.rsi
     noRot: true
     layers:
     - state: "off"
@@ -1503,7 +1503,7 @@
     pack: GenericVendGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/vendomat.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/vendomat.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1543,7 +1543,7 @@
     pack: GenericVendGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/robotics.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/robotics.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1584,7 +1584,7 @@
     denyState: deny-unshaded
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/youtool.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/youtool.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1627,7 +1627,7 @@
     pack: GoodCleanFunGoodbyes
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/games.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/games.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1703,7 +1703,7 @@
   #  normalState: normal-unshaded
   #  denyState: deny-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/mining.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/mining.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1767,7 +1767,7 @@
   - type: SpeakOnUIClosed
     pack: DonutGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/donut.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/donut.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1801,7 +1801,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/hydrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/hydrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1833,7 +1833,7 @@
   - type: SpeakOnUIClosed
     pack: LawDrobeGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/lawdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/lawdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1861,7 +1861,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/secdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/secdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1893,7 +1893,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/bardrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/bardrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1917,7 +1917,7 @@
     normalState: normal-unshaded
     denyState: deny-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chapdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/chapdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1951,7 +1951,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/cargodrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/cargodrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -1983,7 +1983,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/medidrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/medidrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2011,7 +2011,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chemdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/chemdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2039,7 +2039,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/curadrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/curadrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2067,7 +2067,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/atmosdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/atmosdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2099,7 +2099,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/engidrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/engidrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2131,7 +2131,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chefdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/chefdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2159,7 +2159,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/detdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/detdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2187,7 +2187,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/janidrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/janidrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2221,7 +2221,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/scidrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/scidrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2249,7 +2249,7 @@
   - type: SpeakOnUIClosed
     pack: SyndieDrobeGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/syndiedrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/syndiedrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2281,7 +2281,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/robodrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/robodrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2309,7 +2309,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/genedrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/genedrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2337,7 +2337,7 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/virodrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/virodrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2361,7 +2361,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/centdrobe.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/centdrobe.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2397,7 +2397,7 @@
     soundVend: /Audio/Items/bikehorn.ogg
     initialStockQuality: 1.0 # Nobody knows how Honk does it, but their vending machines always seem well-stocked...
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/happyhonk.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/happyhonk.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2442,7 +2442,7 @@
     energy: 2.0 # reduced energy since the color is pure white
     color: "#FFFFFF"
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/pride.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/pride.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2464,7 +2464,7 @@
   - type: VendingMachine
     pack: TankDispenserEVAInventory
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
+    sprite: _Erida/Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
     state: dispenser
 
 - type: entity
@@ -2477,7 +2477,7 @@
   - type: VendingMachine
     pack: TankDispenserEngineeringInventory
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
+    sprite: _Erida/Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
     layers:
     - state: dispenser
     - state: dispensereng
@@ -2496,7 +2496,7 @@
     denyState: deny
   # ejectDelay: 2 Goobstation - No reason for the eject delay to be 2 seconds
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chemvend.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/chemvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2541,7 +2541,7 @@
     normalState: normal-unshaded
     denyState: deny-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/wallmed.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/wallmed.rsi
     layers:
     - state: "off" # Goob
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -2568,7 +2568,7 @@
     pack: NanoMedInventory
     offState: off
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/wallmed.rsi
+    sprite: _Erida/Structures/Machines/VendingMachines/wallmed.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

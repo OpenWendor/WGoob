@@ -33,7 +33,7 @@
         layer:
         - TabletopMachineLayer
   - type: Sprite
-    sprite: Structures/Machines/grinder.rsi
+    sprite: _Erida/Structures/Machines/grinder.rsi
     drawdepth: LargeObjects
     snapCardinals: true
     offset: "0.0,0.4"
@@ -102,7 +102,7 @@
     onlyReclaimDrainable: false
     solutionContainerId: output
   - type: Sprite
-    sprite: Structures/Machines/recycling.rsi
+    sprite: _Erida/Structures/Machines/recycling.rsi
     layers:
       - state: grinder-b0
   - type: AutomationSlots # Goobstation

@@ -40,7 +40,7 @@
     capacity: 40
     proto: BulletFoam
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: _Erida/Objects/Storage/boxes.rsi
     layers:
       - state: boxwidetoy
       - state: shelltoy
@@ -55,7 +55,7 @@
     proto: CartridgeCap
     capacity: 20
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi
     layers:
       - state: capbase
         map: ["enum.GunVisualLayers.Base"]
