@@ -1233,7 +1233,7 @@
   id: UplinkGrenadeMPAPERS
   name: uplink-mpapers-grenade-name
   description: uplink-mpapers-grenade-desc
-  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: apers }
+  icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: apers }
   productEntity: GrenadeMPAPERS
   cost:
     Telecrystal: 3
@@ -1498,7 +1498,7 @@
   id: UplinkBox8Gauge
   name: uplink-high-caliber-shotgun-box-name
   description: uplink-high-caliber-shotgun-box-desc
-  icon: { sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-lethal }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-lethal }
   productEntity: MagazineBoxShotgunHighCaliber
   cost:
     Telecrystal: 10
@@ -1514,7 +1514,7 @@
   id: UplinkBox8GaugeSlug
   name: uplink-high-caliber-shotgun-box-slug-name
   description: uplink-high-caliber-shotgun-box-slug-desc
-  icon: { sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-slug }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-slug }
   productEntity: MagazineBoxShotgunSlugHighCaliber
   cost:
     Telecrystal: 8
@@ -1530,7 +1530,7 @@
   id: UplinkBox8GaugeFlash
   name: uplink-high-caliber-shotgun-box-flash-slug-name
   description: uplink-high-caliber-shotgun-box-flash-slug-desc
-  icon: { sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-incendiary }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-incendiary }
   productEntity: MagazineBoxShotgunHighCaliberFlash
   cost:
     Telecrystal: 1
@@ -1546,7 +1546,7 @@
   id: UplinkBox8GaugeSarin
   name: uplink-high-caliber-shotgun-box-sarin-name
   description: uplink-high-caliber-shotgun-box-sarin-desc
-  icon: { sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-sarin }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-sarin }
   productEntity: MagazineBoxShotgunHighCaliberSarin
   cost:
     Telecrystal: 12
@@ -1833,7 +1833,7 @@
   id: UplinkSyndiedrobe
   name: uplink-syndiedrobe-name
   description: uplink-syndiedrobe-desc
-  icon: { sprite: _Erida/Structures/Machines/VendingMachines/syndiedrobe.rsi, state: off }
+  icon: { sprite: Structures/Machines/VendingMachines/syndiedrobe.rsi, state: off }
   productEntity: VendingMachineSyndieDrobe
   cost:
     Telecrystal: 40

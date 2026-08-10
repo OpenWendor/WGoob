@@ -30,7 +30,7 @@
         path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
     # Goobstation edit end
     - type: Sprite
-      sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+      sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
     - type: BallisticAmmoProvider
       mayTransfer: true
       whitelist:

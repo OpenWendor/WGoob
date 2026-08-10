@@ -55,7 +55,7 @@
           components:
           - PressureDamageChange
   - type: BorgModuleIcon
-    icon: { sprite: _Erida/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi, state: icon }
+    icon: { sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi, state: icon }
 
 # Shitmed Modules
 

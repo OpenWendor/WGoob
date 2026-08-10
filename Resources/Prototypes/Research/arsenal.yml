@@ -5,7 +5,7 @@
   id: SalvageWeapons
   name: research-technology-salvage-weapons
   icon:
-    sprite: _Erida/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
     state: icon
   discipline: Arsenal
   tier: 1
@@ -26,7 +26,7 @@
   id: DraconicMunitions
   name: research-technology-draconic-munitions
   icon:
-    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
     state: incendiarydisplay
   discipline: Arsenal
   tier: 1

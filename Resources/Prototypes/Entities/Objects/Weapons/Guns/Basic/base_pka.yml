@@ -5,9 +5,9 @@
 #  parent: BaseItem
 #  components:
 #  - type: Sprite
-#    sprite: _Erida/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+#    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
 #  - type: Item
-#    sprite: _Erida/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+#    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
 #    size: Large
 #    shape:
 #    - 0,0,2,1

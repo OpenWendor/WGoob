@@ -29,7 +29,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 4
