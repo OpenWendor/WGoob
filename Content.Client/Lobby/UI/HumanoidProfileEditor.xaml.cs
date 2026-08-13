@@ -1057,7 +1057,7 @@ namespace Content.Client.Lobby.UI
             // Group antags by category prototype
             var antagGroups = _prototypeManager.EnumeratePrototypes<AntagPrototype>()
                 .Where(a => a.SetPreference)
-                .OrderBy(a => Loc.GetString(a.Name))
+                .OrderBy(a => Loc.TryGetString(a.Name, out var antagName) ? antagName : a.Name)
                 .GroupBy(a => a.Category ?? "Default")
                 .OrderBy(g => g.Key);
 
@@ -1073,7 +1073,7 @@ namespace Content.Client.Lobby.UI
                 }
                 else if (_prototypeManager.TryIndex<AntagCategoryPrototype>(categoryId, out var categoryProto))
                 {
-                    categoryName = Loc.GetString(categoryProto.Name);
+                    categoryName = Loc.TryGetString(categoryProto.Name, out var localizedCategoryName) ? localizedCategoryName : categoryProto.Name;
                 }
                 else
                 {
@@ -1169,8 +1169,8 @@ namespace Content.Client.Lobby.UI
         private AntagSelector BuildAntagCard(AntagPrototype antag) // erida edit
         {
             var antagSelector = new AntagSelector();
-            antagSelector.SetName(Loc.GetString(antag.Name));
-            antagSelector.SetDescription(Loc.GetString(antag.Objective));
+            antagSelector.SetName(Loc.TryGetString(antag.Name, out var localizedAntagName) ? localizedAntagName : antag.Name);
+            antagSelector.SetDescription(Loc.TryGetString(antag.Objective, out var localizedAntagObjective) ? localizedAntagObjective : antag.Objective);
             antagSelector.OnGuidebookClicked += () => OnOpenGuidebook?.Invoke(antag.Guides ?? new());
 
             // Set icon with fallback
@@ -1228,7 +1228,7 @@ namespace Content.Client.Lobby.UI
                         loadout.SetDefault(Profile, _playerManager.LocalSession, _prototypeManager);
                     }
 
-                    OpenLoadout(null, loadout, roleLoadoutProto, Loc.GetString(antag.Name));
+                    OpenLoadout(null, loadout, roleLoadoutProto, Loc.TryGetString(antag.Name, out var localizedLoadoutAntagName) ? localizedLoadoutAntagName : antag.Name);
                 };
             }
             antagSelector.SetLoadoutButton(loadoutWindowBtn);
