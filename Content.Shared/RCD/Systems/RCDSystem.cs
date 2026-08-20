@@ -696,6 +696,7 @@ public sealed class RCDSystem : EntitySystem
                 // Convert EntityCoordinates to MapCoordinates
                 var entityCoords = _mapSystem.GridTileToLocal(gridUid, mapGrid, position);
                 var mapCoords = _transform.ToMapCoordinates(entityCoords);
+                Logger.WarningS("rcd.debug", $"rcd-spawn: proto={proto} mode={prototype.Mode} rotMode={prototype.Rotation} tilePos={position} spawnPos={mapCoords.Position} rotDeg={rotation.Degrees} direction={direction}"); // erida edit
                 var ent = Spawn(proto, mapCoords, rotation: rotation);
                 // End of funky changes
 
