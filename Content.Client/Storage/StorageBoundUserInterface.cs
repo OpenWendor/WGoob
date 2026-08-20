@@ -33,6 +33,7 @@ public sealed class StorageBoundUserInterface : BoundUserInterface
         {
             _window.UpdateContainer((Owner, storage));
         }
+        _window.OnClose += Close;
         _window.FlagDirty();
     }
 
