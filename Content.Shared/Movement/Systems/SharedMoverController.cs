@@ -251,6 +251,7 @@ public abstract partial class SharedMoverController : VirtualController
          * doing unnecessary calculations.
          * Only a Kinematic Controller should be making it to this point.
          */
+        // erida edit
         if (physicsComponent.BodyType != BodyType.KinematicController && physicsComponent.BodyType != BodyType.Kinematic)
         {
             UsedMobMovement[uid] = false;
