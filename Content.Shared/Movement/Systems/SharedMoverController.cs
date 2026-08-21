@@ -947,6 +947,17 @@ public abstract partial class SharedMoverController : VirtualController
 
         var reachedDestination =
             transform.LocalPosition.EqualsApprox(tileMovement.Destination, destinationTolerance);
+
+        // erida edit start - fix stutter at high movespeed: a single physics tick can jump over the
+        // destination without entering tolerance, causing oscillation until the hard time limit.
+        if (!reachedDestination && tileMovement.LastTickLocalCoordinates != null)
+        {
+            var prevDelta = tileMovement.Destination - tileMovement.LastTickLocalCoordinates.Value;
+            var curDelta = tileMovement.Destination - transform.LocalPosition;
+            if (Vector2.Dot(prevDelta, curDelta) <= 0f)
+                reachedDestination = true;
+        }
+        // erida edit end
         var stoppedPressing = pressedButtons != tileMovement.CurrentSlideMoveButtons;
         var minDurationPassed = CurrentTime - tileMovement.MovementKeyInitialDownTime >= TimeSpan.FromSeconds(minPressedTime);
         var noProgress = tileMovement.LastTickLocalCoordinates != null && transform.LocalPosition.EqualsApprox(tileMovement.LastTickLocalCoordinates.Value, destinationTolerance/3);

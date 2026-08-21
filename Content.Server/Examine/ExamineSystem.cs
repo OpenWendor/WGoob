@@ -72,7 +72,6 @@ namespace Content.Server.Examine
                 verbs = _verbSystem.GetLocalVerbs(entity, playerEnt, typeof(ExamineVerb));
 
             var text = GetExamineText(entity, player.AttachedEntity);
-            Logger.WarningS("examine.debug", $"examine: entity={ToPrettyString(entity)} isGhost={HasComp<Content.Shared.Ghost.GhostComponent>(playerEnt)} canExamine={CanExamine(playerEnt, entity)} nodeCount={text.Nodes.Count}"); // erida edit
             RaiseNetworkEvent(new ExamineSystemMessages.ExamineInfoResponseMessage(
                 request.NetEntity, request.Id, text, verbs?.ToList()), channel);
         }
