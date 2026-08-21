@@ -1,10 +1,5 @@
-﻿using Robust.Shared.Configuration;
+using Robust.Shared.Configuration;
 
-/// <summary>
-///     Corvax modules console variables
-/// </summary>
-
-// ReSharper disable once InconsistentNaming
 namespace Content.Shared.CCVar;
 
 public sealed partial class CCVars
@@ -46,17 +41,6 @@ public sealed partial class CCVars
         CVarDef.Create("tts.max_cache", 250, CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
-    /// VoiceId for Announcement TTS
-    /// </summary>
-    public static readonly CVarDef<string> TTSAnnounceVoiceId =
-        CVarDef.Create("tts.announce_voice", "Announcer", CVar.SERVERONLY | CVar.ARCHIVE);
-
-    /// <summary>
-    /// Default volume setting of TTS Announce sound
-    /// </summary>
-    public static readonly CVarDef<float> TTSAnnounceVolume =
-        CVarDef.Create("tts.announce_volume", 0f, CVar.CLIENTONLY | CVar.ARCHIVE);
-
     /// Tts rate limit values are accounted in periods of this size (seconds).
     /// After the period has passed, the count resets.
     /// </summary>
@@ -68,4 +52,8 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<int> TTSRateLimitCount =
         CVarDef.Create("tts.rate_limit_count", 3, CVar.SERVERONLY);
+
+    /// </summary>
+    public static readonly CVarDef<float> AnnouncementsSound =
+        CVarDef.Create("audio.announcements_volume", 0.5f, CVar.CLIENTONLY | CVar.ARCHIVE);
 }
