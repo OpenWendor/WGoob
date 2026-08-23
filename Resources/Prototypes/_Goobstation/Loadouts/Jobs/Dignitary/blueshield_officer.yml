@@ -1,5 +1,27 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# erida edit
+- type: loadout
+  id: BlueshieldOfficerPresetCustom
+  dummyEntity: BlueshieldPresetCustomIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: custom
+
+- type: loadout
+  id: BlueshieldOfficerPresetErida
+  dummyEntity: BlueshieldPresetEridaIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: erida
+
+- type: loadout
+  id: BlueshieldOfficerPresetGoob
+  dummyEntity: BlueshieldPresetGoobIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: goob
+
 - type: loadoutEffectGroup
   id: SeniorBlueshieldOfficer
   effects:
@@ -22,12 +44,20 @@
 # Hats
 - type: loadout
   id: BlueshieldOfficerHeadSwatHelmet
+  effects:
+  - !type:RequirePresetEffect
+    group: BlueshieldOfficerPreset
+    preset: goob
   equipment:
     head: ClothingHeadHelmetSwat
 
 
 - type: loadout
   id: BlueshieldOfficerBeret
+  effects:
+  - !type:RequirePresetEffect
+    group: BlueshieldOfficerPreset
+    preset: goob
   equipment:
     head: ClothingHeadHatBeretBlueshield # Here's your beret back Gallagin.
 

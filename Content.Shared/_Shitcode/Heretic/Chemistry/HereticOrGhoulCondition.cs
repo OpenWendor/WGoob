@@ -10,9 +10,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Shared._Shitcode.Heretic.Chemistry;
 
 /// <summary>
-///     Condition for eldritch essence: passes only for real heretics
-///     (minds with the heretic role) and ghouls. Heretics without the
-///     antag role are treated as regular crew.
+///     Passes for minds with the heretic role and ghouls.
 /// </summary>
 public sealed partial class HereticOrGhoulConditionSystem : EntityConditionSystem<MetaDataComponent, HereticOrGhoulCondition>
 {
