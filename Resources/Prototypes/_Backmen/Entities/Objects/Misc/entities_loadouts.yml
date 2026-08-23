@@ -2,8 +2,8 @@
 
 - type: entity
   id: ArmySetLoadouts
-  name: ent-ArmySetLoadouts
-  description: ent-ArmySetLoadouts.desc
+  name: army duffel bag with equipment
+  description: Here is the equipment you took with you from the base. It remains to remember which ones exactly.
   parent: BaseItem
   components:
   - type: Sprite
@@ -58,63 +58,3 @@
   - WeaponShotgunGuardian
   - BoxLethalshot
   - BoxLethalshot
-  - TruncheonDT3Zlodey # erida edit
-
-# erida edit
-- type: entity
-  name: дубинка DT-3 «Злодей»
-  parent: [Truncheon, BaseBlueShieldContraband]
-  id: TruncheonDT3Zlodey
-  description: Телескопическая дубинка DT-3 «Злодей» — личное оружие офицера «Синего Щита».
-  components:
-  - type: Sprite
-    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
-    state: icon
-  - type: Clothing
-    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
-    quickEquip: false
-    slots:
-    - Belt
-
-- type: thiefBackpackSet
-  id: EG4RevolverSet
-  name: duffel-category-eg4-name
-  description: duffel-category-eg4-description
-  sprite:
-    sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
-    state: icon
-  content:
-  - Flash
-  - WeaponEnergyRevolver
-  - EnergySpeedloaderLethal
-  - EnergySpeedloaderLethal
-  - EnergySpeedloaderDisabler
-  - TruncheonDT3Zlodey
-
-# erida edit
-- type: entity
-  id: BlueshieldPresetCustomIcon
-  name: "Blueshield preset: custom"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _Corvax/Back/Duffels/military.rsi
-    state: icon
-
-- type: entity
-  id: BlueshieldPresetEridaIcon
-  name: "Blueshield preset: Erida"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _Corvax/Back/Duffels/military.rsi
-    state: icon
-
-- type: entity
-  id: BlueshieldPresetGoobIcon
-  name: "Blueshield preset: Goob"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _Corvax/Back/Duffels/military.rsi
-    state: icon
