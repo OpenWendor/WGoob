@@ -28,12 +28,6 @@ trait-mobster-accent-desc = Забудь об этом! Ты говоришь к
 trait-hushed-name = Тихий голос
 trait-hushed-desc = Вы не можете говорить громче шёпота.
 
-trait-chronic-pain-name = Хроническая боль
-trait-chronic-pain-desc = Вы постоянно испытываете дискомфорт. Чтобы нормально функционировать, вам нужны обезболивающие.
-
-trait-addicted-name = Зависимость
-trait-addicted-desc = Вы жаждете вещества, и ваши мысли постоянно возвращаются к нему. Без него вы чувствуете тревогу, пустоту и раздражение.
-
 trait-language-nekomimetic-name = Некомиметик
 trait-language-nekomimetic-desc = Добавляет персонажу знание языка, присущего феленидам.
 trait-language-mar-name = Мар

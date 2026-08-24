@@ -47,7 +47,7 @@
          Female: FemaleFelinid
          Unsexed: MaleFelinid
      - type: Speech
-       allowedEmotes: [ 'Mews', 'Meows', 'Purrs', 'Hiss' ]
+       allowedEmotes: [ 'Mew', 'Meow', 'Purr', 'Hiss' ]
        speechSounds: Alto
 
 - type: trait # erida edit - IPCs can't have biological traits
@@ -318,28 +318,6 @@
   - !type:AddCompsEffect
     components:
     - type: HemophiliaStatusEffect
-
-# erida edit
-- type: trait
-  id: ChronicPain
-  name: trait-chronic-pain-name
-  description: trait-chronic-pain-desc
-  category: Medical
-  effects:
-  - !type:AddCompsEffect
-    components:
-    - type: ChronicPain
-
-# erida edit
-- type: trait
-  id: Addicted
-  name: trait-addicted-name
-  description: trait-addicted-desc
-  category: Mental
-  effects:
-  - !type:AddCompsEffect
-    components:
-    - type: Addicted
 
 # erida edit
 - type: trait

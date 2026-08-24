@@ -44,20 +44,12 @@
 # Hats
 - type: loadout
   id: BlueshieldOfficerHeadSwatHelmet
-  effects:
-  - !type:RequirePresetEffect
-    group: BlueshieldOfficerPreset
-    preset: goob
   equipment:
     head: ClothingHeadHelmetSwat
 
 
 - type: loadout
   id: BlueshieldOfficerBeret
-  effects:
-  - !type:RequirePresetEffect
-    group: BlueshieldOfficerPreset
-    preset: goob
   equipment:
     head: ClothingHeadHatBeretBlueshield # Here's your beret back Gallagin.
 
