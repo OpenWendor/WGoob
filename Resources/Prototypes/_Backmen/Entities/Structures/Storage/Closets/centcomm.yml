@@ -2,6 +2,26 @@
 # erida edit
 
 - type: entity
+  id: LockerSecurityPilot
+  parent: LockerSecurity
+  name: security pilot locker
+  description: This is where the pilot keeps his belongings.
+  components:
+  - type: Sprite
+    sprite: _Backmen/Structures/Storage/sec-pilot.rsi
+    noRot: true
+    layers:
+    - state: sec
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: sec_pilot_door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+
+- type: entity
   id: LockerBlueShield
   parent: LockerBase
   name: officer "Blueshield"'s locker

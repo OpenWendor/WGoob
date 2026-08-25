@@ -21,3 +21,26 @@
     sprite: _Erida/Clothing/Uniforms/Jumpskirt/blueskirt-alt.rsi
   - type: Clothing
     sprite: _Erida/Clothing/Uniforms/Jumpskirt/blueskirt-alt.rsi
+
+# erida edit
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingJumpsuitDressBlack
+  name: черное короткое платье
+  description: Платье, которые держат парочку ниток от самопроизвольного раздевания. Выглядит надёжно.
+  components:
+  - type: Sprite
+    sprite: _Backmen/Clothing/Uniforms/Jumpskirt/blackunderwear.rsi
+  - type: Clothing
+    sprite: _Backmen/Clothing/Uniforms/Jumpskirt/blackunderwear.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingJumpsuitDressRed
+  name: красное короткое платье
+  description: Платье, которые держат парочку ниток от самопроизвольного раздевания. Выглядит надёжно.
+  components:
+  - type: Sprite
+    sprite: _Backmen/Clothing/Uniforms/Jumpskirt/redunderwear.rsi
+  - type: Clothing
+    sprite: _Backmen/Clothing/Uniforms/Jumpskirt/redunderwear.rsi

@@ -21,3 +21,15 @@
     sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit-alt.rsi
   - type: Clothing
     sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit-alt.rsi
+
+# erida edit
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGachi
+  name: Men's suit
+  description: A suit imbued with strong male relationships and solidarity!
+  components:
+  - type: Sprite
+    sprite: _Backmen/Clothing/Uniforms/jumpsuit/gachi.rsi
+  - type: Clothing
+    sprite: _Backmen/Clothing/Uniforms/jumpsuit/gachi.rsi
