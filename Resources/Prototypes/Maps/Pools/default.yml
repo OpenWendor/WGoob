@@ -1,34 +1,28 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
+# erida edit - пул голосования: карты Эриды
 
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Atlas
-  #- Amber kil by upstream we still have ours but it testfails oh well.
-  - Bagel
-  - Box
-  - Cluster
-  #- Core
-  - Fland
-  #- Loop Goobstation - I love maintenance!!!
-  - Marathon
-  - Meta
-  - Oasis
-  - Omega
-  - Origin
-  - Saltern
-  - Packed
-  #- Train # Goobstation - all my friends hate train
-  - FlandHighPop
-  - OasisHighPop
-  - Barratry # Goobstation - Re-add barratry
-  - Kettle # Goobstation - Re-add kettle (before it was gemini!)
-  - Leonid # Goobstation - for goob by goob
-  - Delta # Goobstation - ported from Corvax
-  - Chloris # Goobstation - also Corvax because we love goidamaps
-  - Cog # those who forget to clear their multitool
-  - Serpentcrest # Goobstation when contra
-  #- Plasma # Goob - No. Leave it to the mappers.
-  #- Reach
-  #- Exo # Goobstation - Just no
-  - Snowball
+  - Amber_Erida
+  - BackmenAspid
+  - BackmenBox
+  - BackmenDelta
+  - BackmenHive
+  - BackmenKettle
+  - BackmenRook
+  - BackmenShoukou
+  - BackmenTortuga
+  - Bagel_Erida
+  - Convex_Erida
+  - Elkridge_Erida
+  - Fland_Erida
+  - Loop_Erida
+  - Marathon_Erida
+  - Meta_Erida
+  - Oasis_Erida
+  - Omega_Erida
+  - Packed_Erida
+  - Plasma_Erida
+  - CorvaxSilly
+  - Train
