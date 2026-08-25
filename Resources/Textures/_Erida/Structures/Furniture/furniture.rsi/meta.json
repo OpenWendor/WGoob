@@ -27,6 +27,15 @@
     },
     {
       "name": "dresser"
+    },
+    {
+      "name": "bed_double"
+    },
+    {
+      "name": "bed_double_down"
+    },
+    {
+      "name": "bed_double_up"
     }
   ]
 }
