@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 272.0.0
@@ -80916,34 +80916,6 @@ entities:
     - type: Transform
       pos: 13.352185,14.572598
       parent: 2
-- proto: ClothingUnderpantyhose
-  entities:
-  - uid: 11520
-    components:
-    - type: Transform
-      parent: 11517
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 11562
-    components:
-    - type: Transform
-      pos: 75.39761,12.476688
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 11563
-    components:
-    - type: Transform
-      pos: -38.47627,-56.748375
-      parent: 2
-  - uid: 11564
-    components:
-    - type: Transform
-      pos: -26.493788,-77.45809
-      parent: 2
 - proto: ClothingUniformJumpskirtElegantMaid
   entities:
   - uid: 11521
@@ -141425,36 +141397,6 @@ entities:
     - type: Transform
       pos: 3.5,3.5
       parent: 2
-- proto: LPPBrasMat
-  entities:
-  - uid: 29429
-    components:
-    - type: Transform
-      pos: 34.5,15.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 20221
-    components:
-    - type: Transform
-      pos: 21.5,8.5
-      parent: 2
-- proto: LPPUnderpantsMat
-  entities:
-  - uid: 21400
-    components:
-    - type: Transform
-      pos: 32.5,15.5
-      parent: 2
-- proto: LPPWhips
-  entities:
-  - uid: 11522
-    components:
-    - type: Transform
-      parent: 11517
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: LuxuryPen
   entities:
   - uid: 20222

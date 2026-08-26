@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 272.0.0
@@ -100549,54 +100549,6 @@ entities:
     components:
     - type: Transform
       pos: 23.5,64.5
-      parent: 2
-- proto: LPPBrasMat
-  entities:
-  - uid: 4022
-    components:
-    - type: Transform
-      pos: 23.5,43.5
-      parent: 2
-  - uid: 14183
-    components:
-    - type: Transform
-      pos: 21.5,64.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 14185
-    components:
-    - type: Transform
-      pos: 20.5,43.5
-      parent: 2
-- proto: LPPPole
-  entities:
-  - uid: 14186
-    components:
-    - type: Transform
-      pos: 21.002245,62.29812
-      parent: 2
-    missingComponents:
-    - Item
-    - Pullable
-- proto: LPPUnderpantsMat
-  entities:
-  - uid: 4023
-    components:
-    - type: Transform
-      pos: 17.5,43.5
-      parent: 2
-  - uid: 14188
-    components:
-    - type: Transform
-      pos: 20.5,64.5
-      parent: 2
-- proto: LPPWhips
-  entities:
-  - uid: 14189
-    components:
-    - type: Transform
-      pos: 23.462328,64.766266
       parent: 2
 - proto: LuxuryPen
   entities:

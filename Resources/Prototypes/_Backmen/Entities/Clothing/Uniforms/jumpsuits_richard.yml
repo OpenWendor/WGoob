@@ -1,0 +1,10 @@
+# erida edit
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRichard
+  name: richard jumpsuit
+  components:
+  - type: Sprite
+    sprite: _Backmen/Clothing/Uniforms/Jumpsuit/richard.rsi
+  - type: Clothing
+    sprite: _Backmen/Clothing/Uniforms/Jumpsuit/richard.rsi

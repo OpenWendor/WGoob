@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -17230,13 +17230,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 2847
-    components:
-    - type: Transform
-      pos: -29.467754,-7.658924
-      parent: 2
 - proto: ClothingUniformJumpsuitLawyerBlack
   entities:
   - uid: 2773

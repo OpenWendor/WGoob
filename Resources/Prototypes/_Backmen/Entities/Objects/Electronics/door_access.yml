@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# erida edit
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlueShield
+  suffix: BlueShield, Locked
+  components:
+  - type: AccessReader
+    access: [["CentralCommand"]]

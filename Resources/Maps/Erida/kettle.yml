@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -67114,41 +67114,6 @@ entities:
     - type: Transform
       pos: 77.78009,6.9345493
       parent: 2
-- proto: ClothingUnderChristmas_knee
-  entities:
-  - uid: 10187
-    components:
-    - type: Transform
-      pos: -24.25359,-18.182907
-      parent: 2
-- proto: ClothingUnderChristmas_norm
-  entities:
-  - uid: 10188
-    components:
-    - type: Transform
-      pos: -24.612965,-18.339157
-      parent: 2
-- proto: ClothingUnderChristmas_thigh
-  entities:
-  - uid: 10189
-    components:
-    - type: Transform
-      pos: -24.519926,-18.77912
-      parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 10190
-    components:
-    - type: Transform
-      pos: -42.533257,-22.523739
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 10191
-    components:
-    - type: Transform
-      pos: -49.943916,-24.40092
-      parent: 2
 - proto: ClothingUniformColorRainbow
   entities:
   - uid: 10192
@@ -121856,13 +121821,6 @@ entities:
         - 0
         - 0
         - 0
-- proto: LPPErpMachine
-  entities:
-  - uid: 18227
-    components:
-    - type: Transform
-      pos: 17.5,-31.5
-      parent: 2
 - proto: LuxuryPen
   entities:
   - uid: 18228

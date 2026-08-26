@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -16388,42 +16388,6 @@ entities:
     - type: Transform
       pos: -13.506974,24.303871
       parent: 2
-- proto: ClothingUnderbra_swimming_alt
-  entities:
-  - uid: 1865
-    components:
-    - type: Transform
-      pos: -29.405592,28.371971
-      parent: 2
-  - uid: 1866
-    components:
-    - type: Transform
-      pos: -29.395176,28.528221
-      parent: 2
-- proto: ClothingUnderpanties_swimming
-  entities:
-  - uid: 1867
-    components:
-    - type: Transform
-      pos: -29.645176,28.278221
-      parent: 2
-  - uid: 1868
-    components:
-    - type: Transform
-      pos: -29.655592,28.444887
-      parent: 2
-- proto: ClothingUnderswimming_blue
-  entities:
-  - uid: 1869
-    components:
-    - type: Transform
-      pos: -29.718092,28.799055
-      parent: 2
-  - uid: 1870
-    components:
-    - type: Transform
-      pos: -29.426426,28.788637
-      parent: 2
 - proto: ClothingUniformJumpskirtPrisoner
   entities:
   - uid: 1852
@@ -29155,13 +29119,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -10.591899,24.884758
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 3409
-    components:
-    - type: Transform
-      pos: -12.5,1.5
       parent: 2
 - proto: Machete
   entities:

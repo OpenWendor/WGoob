@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -34958,20 +34958,6 @@ entities:
     - type: Transform
       pos: -9.419544,-48.840183
       parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 5341
-    components:
-    - type: Transform
-      pos: 22.487274,-37.39112
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 5342
-    components:
-    - type: Transform
-      pos: 14.5012665,-31.61288
-      parent: 2
 - proto: ClothingUniformColorRainbow
   entities:
   - uid: 5343
@@ -65593,13 +65579,6 @@ entities:
     components:
     - type: Transform
       pos: -44.5,0.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 9768
-    components:
-    - type: Transform
-      pos: -17.5,1.5
       parent: 2
 - proto: MachineAnomalyGenerator
   entities:

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -188361,13 +188361,6 @@ entities:
     components:
     - type: Transform
       pos: 118.5,51.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 27928
-    components:
-    - type: Transform
-      pos: 160.5,139.5
       parent: 2
 - proto: MachineAnomalyGenerator
   entities:

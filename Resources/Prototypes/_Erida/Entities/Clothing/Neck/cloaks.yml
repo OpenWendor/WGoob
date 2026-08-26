@@ -58,15 +58,6 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakSanabiCloak
-  name: brigadier general cloak
-  description: A tattered, yet imposing cloak, worn by elite warriors.
-  components:
-    - type: Sprite
-      sprite: _Erida/Clothing/Neck/Cloaks/sanabi.rsi
-
-- type: entity
-  parent: ClothingNeckBase
   id: ClothingNeckCloakWhiteCloak
   name: white church cloak
   description: white formal robe of a priest

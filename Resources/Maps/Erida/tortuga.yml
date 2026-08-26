@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 266.0.0
@@ -66279,23 +66279,6 @@ entities:
     components:
     - type: Transform
       pos: -32.512104,18.150719
-      parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 9882
-    components:
-    - type: Transform
-      pos: -95.208694,-7.2910132
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 9883
-    components:
-    - type: MetaData
-      desc: "They're supposed to keep you from floating away. But they really don't. "
-      name: pspritechlipse gravity socks
-    - type: Transform
-      pos: 38.189426,32.085896
       parent: 2
 - proto: ClothingUniformColorRainbow
   entities:
@@ -139083,13 +139066,6 @@ entities:
     components:
     - type: Transform
       pos: 66.5,68.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 20181
-    components:
-    - type: Transform
-      pos: -17.5,11.5
       parent: 2
 - proto: Machete
   entities:

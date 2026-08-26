@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   format: 7
   category: Map
   engineVersion: 272.0.0
@@ -107779,44 +107779,6 @@ entities:
     - type: Transform
       pos: 79.68621,-20.431467
       parent: 2
-- proto: ClothingUnderbabydoll
-  entities:
-  - uid: 15608
-    components:
-    - type: Transform
-      pos: 8.661857,-80.48171
-      parent: 2
-- proto: ClothingUnderpantyhose
-  entities:
-  - uid: 15609
-    components:
-    - type: Transform
-      pos: 49.355972,-15.482277
-      parent: 2
-- proto: ClothingUnderSocks_knee
-  entities:
-  - uid: 15610
-    components:
-    - type: Transform
-      pos: 24.670305,-57.41198
-      parent: 2
-  - uid: 15611
-    components:
-    - type: Transform
-      pos: 24.628637,-57.203648
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 15612
-    components:
-    - type: Transform
-      pos: -69.48722,4.488859
-      parent: 2
-  - uid: 15613
-    components:
-    - type: Transform
-      pos: -59.631004,-49.391895
-      parent: 2
 - proto: ClothingUniformJumpskirtJanimaidmini
   entities:
   - uid: 15614
@@ -198192,34 +198154,6 @@ entities:
     components:
     - type: Transform
       pos: 92.5,-3.5
-      parent: 2
-- proto: LPPBrasMat
-  entities:
-  - uid: 28619
-    components:
-    - type: Transform
-      pos: 33.5,-16.5
-      parent: 2
-- proto: LPPErpMachine
-  entities:
-  - uid: 28620
-    components:
-    - type: Transform
-      pos: 38.5,-18.5
-      parent: 2
-- proto: LPPUnderpantsMat
-  entities:
-  - uid: 28621
-    components:
-    - type: Transform
-      pos: 34.5,-16.5
-      parent: 2
-- proto: LPPWhips
-  entities:
-  - uid: 28622
-    components:
-    - type: Transform
-      pos: 43.7791,-25.402456
       parent: 2
 - proto: LuxuryPen
   entities:
