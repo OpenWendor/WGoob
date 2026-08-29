@@ -1,0 +1,11 @@
+# erida edit - ClothingMaskSexyMime for theater/wizard bundles
+- type: entity
+  parent: ClothingMaskMime
+  id: ClothingMaskSexyMime
+  name: sexy mime mask
+  description: A flirtatious mime mask for theater performances.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/mime.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/mime.rsi

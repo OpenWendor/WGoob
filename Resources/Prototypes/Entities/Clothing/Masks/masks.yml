@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskGas
@@ -7,9 +5,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gas.rsi
+    sprite: Clothing/Mask/gas.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gas.rsi
+    sprite: Clothing/Mask/gas.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -17,30 +15,12 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
-    - GasMask # goob edit
-    - GasMaskFullDefault # goob edit
-    - Mask # goob edit
+    - GasMask # Goobstation
+    - Mask # Goobstation
   - type: HideLayerClothing
     layers:
       Snout: Mask
     hideOnToggle: true
-  - type: Construction # Goobstation
-    graph: GasMaskHalf
-    node: start
-    deconstructionTarget: null
-  # Goobstation
-  - type: DiseaseProtection
-    # higher protection for gas masks
-    incoming:
-      powerModifiers:
-        Aerial: -0.2
-      chanceMultipliers:
-        Aerial: 0.7
-    outgoing:
-      powerModifiers:
-        Aerial: -0.2
-      chanceMultipliers:
-        Aerial: 0.5
 
 - type: entity
   parent: [ClothingMaskGas, BaseSecurityContraband]
@@ -51,27 +31,16 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gassecurity.rsi
+    sprite: Clothing/Mask/gassecurity.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gassecurity.rsi
+    sprite: Clothing/Mask/gassecurity.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-  - type: Tag # Goobstation - For survial boxes
-    tags:
-    - PetWearable
-    - WhitelistChameleon
-    - SecurityBreathMask
-    - GasMask # Goobstation
-  - type: Hailer # Goobstation - Hailer
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: [ClothingMaskGas, BaseSyndicateContraband]
@@ -80,28 +49,18 @@
   description: A close-fitting tactical mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gassyndicate.rsi
+    sprite: Clothing/Mask/gassyndicate.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gassyndicate.rsi
+    sprite: Clothing/Mask/gassyndicate.rsi
   - type: FlashImmunity
   - type: EyeProtection
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-  - type: Tag  # Goobstation - For survial boxes
-    tags:
-    - PetWearable
-    - WhitelistChameleon
-    - SyndicateBreathMask
-    - GasMask # Goobstation
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskGas
@@ -110,21 +69,13 @@
   description: Improved gas mask utilized by atmospheric technicians. It's flameproof!
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gasatmos.rsi
+    sprite: Clothing/Mask/gasatmos.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gasatmos.rsi
+    sprite: Clothing/Mask/gasatmos.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Heat: 0.5
-  - type: Tag # Goobstation
-    tags:
-    - HamsterWearable
-    - WhitelistChameleon
-    - GasMask
-    - Mask
+        Heat: 0.80
 
 - type: entity
   parent: [ClothingMaskGasAtmos, BaseCommandContraband]
@@ -133,13 +84,11 @@
   description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gascaptain.rsi
+    sprite: Clothing/Mask/gascaptain.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gascaptain.rsi
+    sprite: Clothing/Mask/gascaptain.rsi
   - type: BreathMask
   - type: IngestionBlocker
-    blockSmokeIngestion: true # Goobstation
-
 
 - type: entity
   parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
@@ -148,12 +97,11 @@
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gascentcom.rsi
+    sprite: Clothing/Mask/gascentcom.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gascentcom.rsi
+    sprite: Clothing/Mask/gascentcom.rsi
   - type: BreathMask
   - type: IngestionBlocker
-    blockSmokeIngestion: true # Goobstation
 
 - type: entity
   parent: [ClothingMaskGas, BaseCargoContraband]
@@ -162,26 +110,16 @@
   description: A military-grade gas mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/gasexplorer.rsi
+    sprite: Clothing/Mask/gasexplorer.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/gasexplorer.rsi
+    sprite: Clothing/Mask/gasexplorer.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.9
-        Heat: 0.9
-  - type: Tag # Goobstation
-    tags:
-    - HamsterWearable
-    - WhitelistChameleon
-    - GasMask
-    - Mask
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -192,33 +130,19 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/medical.rsi
+    sprite: Clothing/Mask/medical.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/medical.rsi
+    sprite: Clothing/Mask/medical.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
     tags:
     - PetWearable
     - WhitelistChameleon
-    - BreathMask  # Goobstation - For survial boxes
   - type: PhysicalComposition
     materialComposition:
       Steel: 50
       Plastic: 50
-  # Goobstation
-  - type: DiseaseProtection
-    # full protection if both people are wearing it
-    incoming:
-      powerModifiers:
-        Aerial: -0.4
-      chanceMultipliers:
-        Aerial: 0.5
-    outgoing:
-      powerModifiers:
-        Aerial: -0.6
-      chanceMultipliers:
-        Aerial: 0.5
 
 - type: entity
   parent: ClothingMaskBreathMedical
@@ -229,33 +153,16 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/medicalsecurity.rsi
+    sprite: Clothing/Mask/medicalsecurity.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/medicalsecurity.rsi
+    sprite: Clothing/Mask/medicalsecurity.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-        Caustic: 0.9
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true # Goobstation
-  # Goobstation
-  - type: DiseaseProtection
-    incoming:
-      powerModifiers:
-        Aerial: -0.35
-      chanceMultipliers:
-        Aerial: 0.5
-    outgoing:
-      powerModifiers:
-        Aerial: -0.35
-      chanceMultipliers:
-        Aerial: 0.5
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -266,20 +173,19 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/breath.rsi
+    sprite: Clothing/Mask/breath.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/breath.rsi
+    sprite: Clothing/Mask/breath.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
     tags:
     - PetWearable
     - WhitelistChameleon
-    - BreathMask # Goobstation - For survial boxes
-  - type: PhysicalComposition #Goobstation - Recycle update
+  - type: PhysicalComposition
     materialComposition:
-      Cloth: 25
-      Plastic: 25
+      Steel: 50
+      Plastic: 100
   - type: StaticPrice
     price: 30 # increases in price after decomposed into raw materials
 
@@ -291,23 +197,18 @@
   description: A true prankster's facial attire. A clown is incomplete without his wig and mask.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/clown.rsi
+    sprite: Clothing/Mask/clown.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/clown.rsi
+    sprite: Clothing/Mask/clown.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: Tag
     tags:
     - ClownMask
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
-    - Mask
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: SpeakFontOverride # Goob - clown speaks pink comic sans
-    fontId: LDFComicSans
-    color: "#e93790"
 
 - type: entity
   parent: [ClothingMaskClownBase, BaseFoldable]
@@ -321,7 +222,7 @@
     foldedEquippedPrefix: opened
     foldedHeldPrefix: opened
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/clown.rsi
+    sprite: Clothing/Mask/clown.rsi
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -343,9 +244,9 @@
   name: banana clown wig and mask
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/clown_banana.rsi
+    sprite: Clothing/Mask/clown_banana.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/clown_banana.rsi
+    sprite: Clothing/Mask/clown_banana.rsi
   - type: Construction
     graph: BananaClownMask
     node: mask
@@ -365,12 +266,10 @@
   description: A debatably oxymoronic but protective mask and wig.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/clown_security.rsi
+    sprite: Clothing/Mask/clown_security.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/clown_security.rsi
+    sprite: Clothing/Mask/clown_security.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
         Blunt: 0.95
@@ -385,8 +284,6 @@
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: IngestionBlocker
-    blockSmokeIngestion: true # Goobstation
 
 - type: entity
   parent: ClothingMaskBase
@@ -395,17 +292,14 @@
   description: Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/joy.rsi
+    sprite: Clothing/Mask/joy.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/joy.rsi
+    sprite: Clothing/Mask/joy.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - IPCMaskWearable # EE - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -414,16 +308,15 @@
   description: The traditional mime's mask. It has an eerie facial posture.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/mime.rsi
+    sprite: Clothing/Mask/mime.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/mime.rsi
+    sprite: Clothing/Mask/mime.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: Tag
     tags:
     - HamsterWearable
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
   - type: HideLayerClothing
     slots:
     - Snout
@@ -435,9 +328,9 @@
   description: A sterile mask designed to help prevent the spread of diseases.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/sterile.rsi
+    sprite: Clothing/Mask/sterile.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/sterile.rsi
+    sprite: Clothing/Mask/sterile.rsi
   - type: IngestionBlocker
   - type: Item
     size: Tiny
@@ -446,22 +339,8 @@
   - type: PhysicalComposition
     materialComposition:
       Plastic: 25
-      Cloth: 25
   - type: StaticPrice
     price: 5
-  # Goobstation
-  - type: DiseaseProtection
-    # really strong protection
-    incoming:
-      powerModifiers:
-        Aerial: -0.6
-      chanceMultipliers:
-        Aerial: 0.4
-    outgoing:
-      powerModifiers:
-        Aerial: -0.6
-      chanceMultipliers:
-        Aerial: 0.4
 
 - type: entity
   parent: ClothingMaskBase
@@ -472,9 +351,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/muzzle.rsi
+    sprite: Clothing/Mask/muzzle.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/muzzle.rsi
+    sprite: Clothing/Mask/muzzle.rsi
     equipDelay: 3
     unequipDelay: 3
   - type: IngestionBlocker
@@ -488,6 +367,7 @@
     node: muzzle
   - type: Tag # Goobstation
     tags:
+    - Mask
     - Muzzle
 
 - type: entity
@@ -497,9 +377,9 @@
   description: A bad omen.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/plaguedoctormask.rsi
+    sprite: Clothing/Mask/plaguedoctormask.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/plaguedoctormask.rsi
+    sprite: Clothing/Mask/plaguedoctormask.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -507,19 +387,6 @@
     slots:
     - Snout
     hideOnToggle: true
-  # Goobstation
-  - type: DiseaseProtection
-    # really good incoming but bad outgoing protection
-    incoming:
-      powerModifiers:
-        Aerial: -0.8
-      chanceMultipliers:
-        Aerial: 0.2
-    outgoing:
-      powerModifiers:
-        Aerial: -0.2
-      chanceMultipliers:
-        Aerial: 0.8
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -529,9 +396,9 @@
   description: Cursed cluwne face and hair.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/cluwne.rsi
+    sprite: Clothing/Mask/cluwne.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/cluwne.rsi
+    sprite: Clothing/Mask/cluwne.rsi
   - type: Unremoveable
   - type: AddAccentClothing
     accent: StutteringAccent
@@ -543,13 +410,14 @@
   description: A elite issue Security gas mask.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/swat.rsi
+    sprite: Clothing/Mask/swat.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/swat.rsi
+    sprite: Clothing/Mask/swat.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
-    - GasMask
+    - GasMask # Goobstation
+    - Mask # Goobstation
   - type: HideLayerClothing
     slots:
     - Hair
@@ -558,17 +426,12 @@
     - HeadSide
     hideOnToggle: true
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.9
-        Heat: 0.9
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
-  - type: Hailer # Goobstation - Hailer
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: [ ClothingMaskGas, BaseSecurityCargoContraband ]
@@ -577,26 +440,16 @@
   description: Slightly outdated, but reliable military-style gas mask.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/merc.rsi
+    sprite: Clothing/Mask/merc.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/merc.rsi
+    sprite: Clothing/Mask/merc.rsi
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.8
-        Heat: 0.8
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
-  - type: Tag # Goobstation
-    tags:
-    - HamsterWearable
-    - WhitelistChameleon
-    - GasMask
-    - Mask
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: [ ClothingMaskGas, BaseCentcommContraband ]
@@ -605,13 +458,14 @@
   description: The gas mask of the elite squad of the ERT.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/ert.rsi
+    sprite: Clothing/Mask/ert.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/ert.rsi
+    sprite: Clothing/Mask/ert.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
     - GasMask # Goobstation
+    - Mask # Goobstation
   - type: HideLayerClothing
     slots:
     - Hair
@@ -620,16 +474,12 @@
   - type: FlashImmunity
   - type: EyeProtection
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-  - type: IngestionBlocker # Goobstation
-    blockSmokeIngestion: true
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskGasERT
@@ -638,39 +488,21 @@
   description: A unique gas mask for the NT's most elite squad.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/squadron.rsi
+    sprite: Clothing/Mask/squadron.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/squadron.rsi
+    sprite: Clothing/Mask/squadron.rsi
   - type: HideLayerClothing
     slots:
     - Hair
     - HeadTop
     - HeadSide
   - type: Armor
-    coverage:
-    - Head
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
-        Piercing: 0.75
-        Heat: 0.75
-  - type: Tag
-    tags: # ignore "WhitelistChameleon" tag
-    - GasMask # Goobstation
-  # Goobstation
-  - type: DiseaseProtection
-    # full immunity
-    incoming:
-      powerModifiers:
-        Aerial: -1
-      chanceMultipliers:
-        Aerial: 0
-    outgoing:
-      powerModifiers:
-        Aerial: -1
-      chanceMultipliers:
-        Aerial: 0
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.90
+        Heat: 0.90
 
 - type: entity
   parent: ClothingMaskBase
@@ -679,21 +511,18 @@
   description: A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/rat.rsi
+    sprite: Clothing/Mask/rat.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/rat.rsi
+    sprite: Clothing/Mask/rat.rsi
+  - type: BreathMask
   - type: Tag
     tags:
     - HamsterWearable
-    - CursedAnimalMask # Goobstation
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
   - type: HideLayerClothing
     slots:
     - Snout
   - type: IdentityBlocker
-  - type: AddAccentClothing # Goobstation
-    accent: RatAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -702,20 +531,14 @@
   description: What does the fox say?
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/fox.rsi
+    sprite: Clothing/Mask/fox.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/fox.rsi
+    sprite: Clothing/Mask/fox.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: FoxAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -724,20 +547,14 @@
   description: For the queen!
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/bee.rsi
+    sprite: Clothing/Mask/bee.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/bee.rsi
+    sprite: Clothing/Mask/bee.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: BeeAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -746,20 +563,14 @@
   description: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/bear.rsi
+    sprite: Clothing/Mask/bear.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/bear.rsi
+    sprite: Clothing/Mask/bear.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: BearAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -768,20 +579,14 @@
   description: Where I am, death... or glitter.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/raven.rsi
+    sprite: Clothing/Mask/raven.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/raven.rsi
+    sprite: Clothing/Mask/raven.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: RavenAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -790,20 +595,14 @@
   description: It is better not to turn your back to the owner of the mask, it may bite.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/jackal.rsi
+    sprite: Clothing/Mask/jackal.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/jackal.rsi
+    sprite: Clothing/Mask/jackal.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: JackalAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -812,20 +611,14 @@
   description: A bloodsucker by night, and a cute, blinded beast by day.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/bat.rsi
+    sprite: Clothing/Mask/bat.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/bat.rsi
+    sprite: Clothing/Mask/bat.rsi
+  - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Snout
-  - type: Tag
-    tags:
-    - CursedAnimalMask # Goobstation
-    - WhitelistChameleon # Goobstation
-    - IPCMaskWearable # EE - IPCs
-  - type: AddAccentClothing # Goobstation
-    accent: BatAccent
 
 - type: entity
   parent: ClothingMaskBase
@@ -834,15 +627,14 @@
   description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/neckgaiter.rsi
+    sprite: Clothing/Mask/neckgaiter.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/neckgaiter.rsi
+    sprite: Clothing/Mask/neckgaiter.rsi
   - type: IdentityBlocker
     coverage: MOUTH
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
 
 - type: entity
   parent: ClothingMaskNeckGaiter
@@ -850,31 +642,31 @@
   name: red neck gaiter
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/neckgaiterred.rsi
+    sprite: Clothing/Mask/neckgaiterred.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/neckgaiterred.rsi
+    sprite: Clothing/Mask/neckgaiterred.rsi
 
 - type: entity
   parent: ClothingMaskClownBase
-  id: ClothingMaskSexyClown
-  name: sexy clown mask
-  description: Some naughty clowns think this is what the Honkmother looks like.
+  id: ClothingMaskBlushingClown
+  name: blushing clown mask
+  description: A mask for a blushing clown.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/sexyclown.rsi
+    sprite: Clothing/Mask/blushingclown.rsi
   - type: Clothing
-    sprite: Clothing/Mask/sexyclown.rsi
+    sprite: Clothing/Mask/blushingclown.rsi
 
 - type: entity
   parent: ClothingMaskMime
-  id: ClothingMaskSexyMime
-  name: sexy mime mask
+  id: ClothingMaskBlushingMime
+  name: blushing mime mask
   description: Those ruddy cheeks just want to be rubbed.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/sexymime.rsi
+    sprite: Clothing/Mask/blushingmime.rsi
   - type: Clothing
-    sprite: Clothing/Mask/sexymime.rsi
+    sprite: Clothing/Mask/blushingmime.rsi
 
 - type: entity
   parent: ClothingMaskMime
@@ -883,9 +675,9 @@
   description: Many people think this is what a real mime mask looks like.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/sadmime.rsi
+    sprite: Clothing/Mask/sadmime.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/sadmime.rsi
+    sprite: Clothing/Mask/sadmime.rsi
 
 - type: entity
   parent: ClothingMaskMime
@@ -894,9 +686,9 @@
   description: Looks like it would scream if it wasn't a mask.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/scaredmime.rsi
+    sprite: Clothing/Mask/scaredmime.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/scaredmime.rsi
+    sprite: Clothing/Mask/scaredmime.rsi
 
 - type: entity
   parent: [ClothingMaskMime, BaseSecurityContraband]
@@ -905,9 +697,9 @@
   description: You have the right to remain silent.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/mime_security.rsi
+    sprite: Clothing/Mask/mime_security.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/mime_security.rsi
+    sprite: Clothing/Mask/mime_security.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -923,22 +715,11 @@
   description: Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/italian_moustache.rsi
+    sprite: Clothing/Mask/italian_moustache.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/italian_moustache.rsi
+    sprite: Clothing/Mask/italian_moustache.rsi
   - type: Item
     storedRotation: -90
-  - type: AddAccentClothing
-    accent: ReplacementAccent
-    replacement: italian
-  - type: HandheldTranslator # Goob - Magic Moustache
-    spoken:
-    - SpaceItalian
-    understood:
-    - SpaceItalian
-    toggleOnInteract: false
-    setLanguageOnInteract: false
-    showInfoOnExamine: false
 
 - type: entity
   parent: ClothingMaskBase
@@ -947,47 +728,39 @@
   description: A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/ninja.rsi
+    sprite: Clothing/Mask/ninja.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/ninja.rsi
+    sprite: Clothing/Mask/ninja.rsi
   - type: Item
     storedRotation: -90
   - type: EyeProtection
   - type: BreathMask
   - type: IdentityBlocker
-  - type: Tag
-    tags:
-    - IPCMaskWearable # EE - IPCs
 
 - type: entity
-  parent: ClothingMaskBase
+  parent: ClothingMaskGas
   id: ClothingMaskWeldingGas
   name: welding gas mask
   description: A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Mask/welding-gas.rsi
+    sprite: Clothing/Mask/welding-gas.rsi
     state: icon
   - type: Clothing
-    sprite: _Erida/Clothing/Mask/welding-gas.rsi
-  - type: BreathMask
-  - type: IngestionBlocker
-  - type: IdentityBlocker
+    sprite: Clothing/Mask/welding-gas.rsi
   - type: FlashImmunity
   - type: EyeProtection
-  - type: PhysicalComposition #Goobstation - Recycle update
+  - type: PhysicalComposition
     materialComposition:
-      Steel: 150
-      Glass: 50
+      Steel: 200
+      Glass: 100
   - type: StaticPrice
     price: 100
   - type: Tag
     tags:
     - WhitelistChameleon
-    - GasMask # Goobstation
-  - type: HideLayerClothing
-    slots:
-    - Snout
+    - GasMask
+    - Mask
 
 # Entity tables
 - type: entityTable
