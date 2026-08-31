@@ -1330,3 +1330,14 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/38
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: Revert "The end of the end (#19)"
+- author: Lytheriia
+  changes:
+    - type: Tweak
+      message: Возращены NSFW описания
+    - type: Fix
+      message: Гарпимоль и тараканы более не сгорают при спавне
+  id: 112
+  time: '2026-08-31T18:25:21.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/41
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Minor fix
