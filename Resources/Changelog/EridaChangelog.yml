@@ -1273,3 +1273,71 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/32
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: '[Fix] Bug fixes'
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: Вебхуки с логами изменений времени,  токенов и прав администрации
+    - type: Add
+      message: Вебхук раундов вновь показывает выбранный режим
+    - type: Add
+      message: 'В главное меню добавлена кнопка опросов '
+    - type: Tweak
+      message: Фелениды не могут стать ГСБ, ОСЩ, ПНТ, Капитаном
+    - type: Tweak
+      message: Понижена частота метеоритов
+    - type: Tweak
+      message: Секрет+лоупоп переехал в динамик, заменившись гриншифтом
+    - type: Remove
+      message: Вырезан спавн шаттлов ЯО и других антагонистов в мирные режимы.
+  id: 107
+  time: '2026-08-27T05:08:35.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/33
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Minor fixes + logs
+- author: vanomorodellefake
+  changes:
+    - type: Tweak
+      message: Убран инстигатор из расшира
+  id: 108
+  time: '2026-08-28T06:20:37.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/34
+  avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
+  title: NoInstigator
+- author: Lytheriia
+  changes:
+    - type: Tweak
+      message: Слот машина квартирмейстера теперь принимает любые суммы
+  id: 109
+  time: '2026-08-28T07:47:32.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/35
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: '[Tweak] Qm slot machine'
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: Апстрим
+  id: 110
+  time: '2026-08-28T14:02:57.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/36
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Upstream
+- author: Lytheriia
+  changes:
+    - type: Tweak
+      message: Увеличены шансы на выпадение многих мидраунд антагонистов
+  id: 111
+  time: '2026-08-29T13:34:17.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/38
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Revert "The end of the end (#19)"
+- author: Lytheriia
+  changes:
+    - type: Tweak
+      message: Возращены NSFW описания
+    - type: Fix
+      message: Гарпимоль и тараканы более не сгорают при спавне
+  id: 112
+  time: '2026-08-31T18:25:21.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/41
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Minor fix

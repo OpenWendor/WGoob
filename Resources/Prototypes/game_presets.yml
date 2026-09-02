@@ -95,9 +95,9 @@
   showInVote: false #2boring2vote
   description: extended-description
   rules:
-  - BasicStationEventScheduler
+  - EridaBasicStationEventScheduler # Erida
   - MeteorSwarmScheduler
-  - SpaceTrafficControlEventScheduler
+  - SpaceTrafficControlFriendlyEventScheduler # Erida-edit
   - BasicRoundstartVariation
 
 - type: gamePreset
