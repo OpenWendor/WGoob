@@ -1,4 +1,4 @@
-- type: gameMap
+﻿- type: gameMap
   id: BackmenBox
   mapName: 'Federation Box'
   mapPath: /Maps/Erida/box.yml
@@ -16,8 +16,10 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency_box.yml
         - type: StationJobs
           availableJobs:
-            #service
+            #command
             Captain: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ] # erida edit
+            NanotrasenRepresentative: [ 1, 1 ] # erida edit
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 2, 2 ]
             Botanist: [ 3, 3 ]
@@ -61,7 +63,6 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             #centcomm
-            BlueShieldOfficer: [ 1, 1 ]
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 3, 3 ]

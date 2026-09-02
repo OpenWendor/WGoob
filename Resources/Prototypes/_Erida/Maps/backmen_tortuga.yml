@@ -1,4 +1,4 @@
-- type: gameMap
+﻿- type: gameMap
   id: BackmenTortuga
   mapName: 'Tortuga'
   mapPath: /Maps/Erida/tortuga.yml
@@ -21,7 +21,7 @@
             Librarian: [ 1, 1 ]
           #command
             Captain: [ 1, 1 ]
-            BlueShieldOfficer: [ 1, 1 ] #erida
+            BlueshieldOfficer: [ 1, 1 ] # erida edit
           #engineering
             AtmosphericTechnician: [ 2, 3 ]
             ChiefEngineer: [ 1, 1 ]

@@ -1,4 +1,4 @@
-- type: gameMap
+﻿- type: gameMap
   id: BackmenRook
   mapName: 'Rook'
   mapPath: /Maps/Erida/rook.yml
@@ -28,6 +28,7 @@
             Musician: [ 1, 1]
             Mime: [ 1, 1 ]
             Captain: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ] # erida edit
             HeadOfPersonnel: [ 1, 1 ]
           #Engineering
             ChiefEngineer: [ 1, 1 ]

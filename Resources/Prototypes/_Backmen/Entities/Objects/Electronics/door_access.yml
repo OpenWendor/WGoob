@@ -8,3 +8,12 @@
   components:
   - type: AccessReader
     access: [["CentralCommand"]]
+
+# erida edit
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsCentCom
+  suffix: Centcomm, Locked
+  components:
+  - type: AccessReader
+    access: [["CentralCommand"]]

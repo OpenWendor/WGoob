@@ -17,8 +17,9 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency_courser.yml
         - type: StationJobs
           availableJobs:
-            #service
+            #command
             Captain: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ] # erida edit
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 2 ]
             Botanist: [ 2, 3 ]
@@ -60,6 +61,5 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             #backmen
-            BlueShieldOfficer: [1, 1]
             StationAi: [ 1, 1 ]
         - type: StationGoal

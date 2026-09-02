@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
+﻿# SPDX-License-Identifier: AGPL-3.0-or-later
 # erida edit
 
 - type: entity
@@ -20,7 +20,12 @@
       shader: unshaded
     - state: welded
       visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
 
+  - type: EntityStorageVisuals
+    stateBaseClosed: sec
+    stateDoorOpen: sec_open
+    stateDoorClosed: sec_pilot_door
 - type: entity
   id: LockerBlueShield
   parent: LockerBase

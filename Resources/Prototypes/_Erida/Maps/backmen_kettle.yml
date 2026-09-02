@@ -16,8 +16,9 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency_courser.yml
         - type: StationJobs
           availableJobs:
-            #service
+            #command
             Captain: [ 1, 1 ]
+            BlueshieldOfficer: [ 1, 1 ] # erida edit
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 2 ]
             Botanist: [ 2, 3 ]
@@ -51,7 +52,6 @@
             SecurityOfficer: [ 4, 6 ]
             SecurityCadet: [ 3, 4 ]
             Brigmedic: [ 1, 1 ]
-            BlueShieldOfficer: [1, 1]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 4, 4 ]

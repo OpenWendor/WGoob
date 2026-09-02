@@ -1,10 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# erida edit - пул голосования: карты Эриды
+# erida edit - пул голосования: Основные карты (Backmen + Erida)
 
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Amber_Erida
   - BackmenAspid
   - BackmenBox
   - BackmenDelta
@@ -13,16 +12,25 @@
   - BackmenRook
   - BackmenShoukou
   - BackmenTortuga
-  - Bagel_Erida
-  - Convex_Erida
-  - Elkridge_Erida
-  - Fland_Erida
-  - Loop_Erida
-  - Marathon_Erida
-  - Meta_Erida
-  - Oasis_Erida
-  - Omega_Erida
-  - Packed_Erida
-  - Plasma_Erida
-  - CorvaxSilly
-  - Train
+  - EridaAmber
+  - EridaAspid
+  - EridaBagel
+  - EridaBox
+  - EridaConvex
+  - EridaElkridge
+  - EridaFland
+  - EridaHive
+  - EridaKettle
+  - EridaLoop
+  - EridaMarathon
+  - EridaMeta
+  - EridaOasis
+  - EridaOmega
+  - EridaPacked
+  - EridaPlasma
+  - EridaRook
+  - EridaShoukou
+  - EridaTortuga
+  - EridaTrain
+  - EridaDelta
+  - CentComm

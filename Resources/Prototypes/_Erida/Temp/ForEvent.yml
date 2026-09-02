@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   id: TempDoll
   parent: [ SimpleMobBase, MobCombat ]
   name: Кукла
@@ -43,8 +43,8 @@
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
     layers:
-    - state: blood_paper
-    - state: blood_paper
+    - state: paper_words-blood
+    - state: paper_words-blood
       map: ["enum.PaperVisualLayers.Writing"]
       visible: false
     - state: paper_stamp-generic
