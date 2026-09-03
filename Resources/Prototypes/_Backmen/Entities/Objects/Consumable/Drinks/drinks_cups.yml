@@ -1,11 +1,10 @@
-- type: entity
+﻿- type: entity
   parent: DrinkBaseCup
   id: DrinkSakeCup
   name: sakazuki
   description: A ceremonial white cup for drinking sake.
   components:
   - type: Solution
-    id: digestion
     solution:
       reagents:
       - ReagentId: Sake

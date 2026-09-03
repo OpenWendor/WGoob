@@ -19,7 +19,7 @@
   components:
   - type: RandomSpawner
     prototypes:
-      - ToyFigurineRandom
+      - ToyFigurineGreytider
     chance: 1
     offset: 0.0
 
@@ -52,7 +52,7 @@
   components:
   - type: RandomSpawner
     prototypes:
-      - ToyFigurineSpaceman
+      - ToyFigurinePassenger
     chance: 1
     offset: 0.0
 
@@ -86,7 +86,7 @@
   - type: RandomSpawner
     prototypes:
       - ToySkeleton
-      - ToyFigurineRandom
+      - ToyFigurineGreytider
     chance: 1
     offset: 0.0
 
@@ -99,4 +99,4 @@
     sprite: Markers/cross.rsi
     state: red
   - type: WarpPoint
-    destination: BombingSite
+    location: BombingSite

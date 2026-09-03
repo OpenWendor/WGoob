@@ -7,7 +7,7 @@
     - type: Edible
       requiresSpecialDigestion: true
     - type: Solution
-      id: food
+
       solution:
         maxVol: 10
         reagents:

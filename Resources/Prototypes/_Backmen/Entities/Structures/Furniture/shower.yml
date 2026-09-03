@@ -22,10 +22,11 @@
       bodyType: Static
       canCollide: false
     - type: InteractionOutline
-    - type: Damageable
-      damageModifierSet: StructuralMetallic
+    - type: Construction
       graph: Shower
       node: shower
+    - type: Damageable
+      damageModifierSet: StructuralMetallic
     - type: Destructible
       thresholds:
       - trigger:

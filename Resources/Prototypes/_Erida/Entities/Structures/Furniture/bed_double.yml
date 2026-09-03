@@ -32,6 +32,7 @@
     placeCentered: true
   - type: Damageable
     damageModifierSet: Metallic
+  - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger

@@ -6,7 +6,7 @@
     - type: Sprite
       state: engineering
     - type: MachineBoard
-      prototype: AtmosDeviceFanTinyPWR
+      prototype: AtmosDeviceFanTiny
       stackRequirements:
         Manipulator: 2
         CableHV: 5
@@ -21,7 +21,7 @@
     - type: Sprite
       state: engineering
     - type: MachineBoard
-      prototype: AtmosDeviceFanDirectionalPWR
+      prototype: AtmosDeviceFanDirectional
       stackRequirements:
         Manipulator: 2
         CableHV: 5

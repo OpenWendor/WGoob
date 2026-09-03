@@ -1,10 +1,10 @@
-- type: entity
+﻿- type: entity
   parent: DrinkGlass
   id: DrinkKarmotrineGlass
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -20,7 +20,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -36,7 +36,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -52,7 +52,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -68,7 +68,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -84,7 +84,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -100,7 +100,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -116,7 +116,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -132,7 +132,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -148,7 +148,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -164,7 +164,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -180,7 +180,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -196,7 +196,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -212,7 +212,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -228,7 +228,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -244,7 +244,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -260,7 +260,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -276,7 +276,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -292,7 +292,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -308,7 +308,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -324,7 +324,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -340,7 +340,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -356,7 +356,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:
@@ -372,7 +372,7 @@
   suffix: VA-11 Hall-A
   components:
   - type: Solution
-    id: drink
+
     solution:
       maxVol: 30
       reagents:

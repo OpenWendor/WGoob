@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   name: Jelly slug creek
   parent: FoodDonutBase
   id: FoodJellySlugCreek
@@ -8,7 +8,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-creek
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -29,7 +29,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-artificer
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -56,7 +56,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-gourmet
   - type: Solution
-    id: food
+
     solution:
       maxVol: 10
       reagents:
@@ -73,7 +73,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-hunter
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -97,7 +97,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-monk
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -118,7 +118,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-saint
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -137,7 +137,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-spear_master
   - type: Solution
-    id: food
+
     solution:
       maxVol: 7
       reagents:
@@ -159,7 +159,7 @@
     sprite: _Backmen/Objects/Consumable/Food/Baked/donut.rsi
     state: jelly-slug-UwU
   - type: Solution
-    id: food
+
     solution:
       maxVol: 10
       reagents:

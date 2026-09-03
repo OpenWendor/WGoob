@@ -10,6 +10,7 @@
       sprite: _Backmen/Structures/Walls/drywall.rsi
     - type: Damageable
       damageModifierSet: Wood
+    - type: Destructible
       thresholds:
         - trigger:
             !type:DamageTrigger
@@ -53,9 +54,9 @@
     key: walls
     base: riveted
   - type: Reflect
-    reflectsProb:
-      Energy: 1
-      NonEnergy: 1
+    reflects:
+      - Energy
+      - NonEnergy
 
 - type: entity
   parent: BaseWall

@@ -4,7 +4,7 @@
   name: BlueShield
   components:
   - type: SpawnPoint
-    job_id: BlueShieldOfficer
+    job_id: BlueshieldOfficer
   - type: Sprite
     sprite: _Backmen/Markers/jobs.rsi
     layers:

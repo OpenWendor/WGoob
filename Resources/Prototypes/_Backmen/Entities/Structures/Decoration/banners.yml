@@ -32,11 +32,12 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Appearance
-  - type: Damageable
-    damageModifierSet: Metallic
+  - type: Sprite
     drawdepth: WallTops
     sprite: _Backmen/Structures/Decoration/wallbanner.rsi
     state: egov
+  - type: Damageable
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger:
