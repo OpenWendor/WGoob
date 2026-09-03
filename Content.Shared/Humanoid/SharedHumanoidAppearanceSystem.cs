@@ -626,8 +626,6 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             SetScale(uid, new Vector2(species.DefaultWidth, species.DefaultHeight), true, humanoid);
         else
             SetScale(uid, new Vector2(profile.Width, profile.Height), true, humanoid);
-
-        _heightAdjust.SetScale(uid, new Vector2(humanoid.Width, humanoid.Height));
         // end Goobstation: port EE height/width sliders
 
         RaiseLocalEvent(uid, new ProfileLoadFinishedEvent()); // Shitmed Change
