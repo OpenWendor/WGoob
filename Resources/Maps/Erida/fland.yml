@@ -18448,14 +18448,14 @@ entities:
     - type: Transform
       pos: -15.5,31.5
       parent: 2
-- proto: AirlockBlueShieldGlassLocked
+- proto: AirlockBlueshieldOfficerCommandGlassLocked
   entities:
   - uid: 200
     components:
     - type: Transform
       pos: 29.5,-10.5
       parent: 2
-- proto: AirlockBlueShieldLocked
+- proto: AirlockBlueshieldOfficerCommandLocked
   entities:
   - uid: 201
     components:

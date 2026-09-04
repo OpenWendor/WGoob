@@ -1031,7 +1031,6 @@
   name: loadout-group-bso-preset
   minLimit: 1
   maxLimit: 1
-  DefaultSelected: 1
   loadouts:
   - BlueshieldOfficerPresetCustom
   - BlueshieldOfficerPresetErida

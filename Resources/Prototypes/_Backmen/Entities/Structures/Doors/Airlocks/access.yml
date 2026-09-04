@@ -1,22 +1,4 @@
 - type: entity
-  parent: AirlockBlueShield
-  id: AirlockBlueShieldLocked
-  suffix: Blue Shield, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsBlueShield ]
-
-- type: entity
-  parent: AirlockBlueShieldGlass
-  id: AirlockBlueShieldGlassLocked
-  suffix: Blue Shield, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsBlueShield ]
-
-- type: entity
   parent: DoubleGlassAirlock
   id: DoubleGlassAirlockCentcomLocked
   name: Double Glass Airlock
@@ -24,7 +6,7 @@
   components:
     - type: ContainerFill
       containers:
-        board: [ DoorElectronicsCentCom ]
+        board: [ DoorElectronicsCentralCommand ]
 
 - type: entity
   parent: DoubleGlassAirlock
@@ -45,7 +27,7 @@
   components:
     - type: ContainerFill
       containers:
-        board: [ DoorElectronicsCentCom ]
+        board: [ DoorElectronicsCentralCommand ]
 
 - type: entity
   parent: AirlockHatchMaint

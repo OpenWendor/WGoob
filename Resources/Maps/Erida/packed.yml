@@ -8495,7 +8495,7 @@ entities:
     - type: Transform
       pos: 28.5,-28.5
       parent: 2
-- proto: AirlockBlueShieldLocked
+- proto: AirlockBlueshieldOfficerCommandLocked
   entities:
   - uid: 104
     components:

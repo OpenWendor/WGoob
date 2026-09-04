@@ -25795,14 +25795,14 @@ entities:
     - type: Door
       secondsUntilStateChange: -348037.84
       state: Opening
-- proto: AirlockBlueShieldGlassLocked
+- proto: AirlockBlueshieldOfficerCommandGlassLocked
   entities:
   - uid: 303
     components:
     - type: Transform
       pos: 11.5,-15.5
       parent: 2
-- proto: AirlockBlueShieldLocked
+- proto: AirlockBlueshieldOfficerCommandLocked
   entities:
   - uid: 304
     components:

@@ -14918,7 +14918,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,-60.5
       parent: 2
-- proto: AirlockBlueShieldLocked
+- proto: AirlockBlueshieldOfficerCommandLocked
   entities:
   - uid: 197
     components:
