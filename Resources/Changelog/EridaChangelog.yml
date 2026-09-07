@@ -1402,3 +1402,12 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/44
   avatar_url: https://avatars.githubusercontent.com/u/183598448?v=4
   title: LavaTweaks
+- author: vanomorodellefake
+  changes:
+    - type: Fix
+      message: шлем инженерного скафандра вновь появляется
+  id: 118
+  time: '2026-09-07T20:03:54.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/49
+  avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
+  title: eng hardsuit helmet fix
