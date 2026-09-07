@@ -17,6 +17,7 @@
     - WhitelistChameleon
     - GasMask # Goobstation
     - Mask # Goobstation
+    - BreathMask # erida edit
   - type: HideLayerClothing
     layers:
       Snout: Mask
@@ -41,6 +42,9 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  - type: Tag
+    tags:
+    - SecurityBreathMask # erida edit
 
 - type: entity
   parent: [ClothingMaskGas, BaseSyndicateContraband]

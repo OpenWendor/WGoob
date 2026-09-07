@@ -64972,7 +64972,6 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 10188
           - 10189
         paper_label: !type:ContainerSlot
           showEnts: False
@@ -130708,33 +130707,6 @@ entities:
     components:
     - type: Transform
       pos: -24.5,-10.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQJulie
-  entities:
-  - uid: 19544
-    components:
-    - type: Transform
-      pos: -99.5,-48.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 19545
-    components:
-    - type: Transform
-      pos: -95.5,-51.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 19546
-    components:
-    - type: Transform
-      pos: -97.5,-48.5
       parent: 2
     - type: Fixtures
       fixtures: {}

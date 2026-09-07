@@ -1,4 +1,4 @@
-- type: job
+﻿- type: job
   id: SecurityPilot
   name: job-name-pilot
   description: job-description-pilot
@@ -48,4 +48,3 @@
     jumpsuit: ClothingUniformJumpsuitSecurityPilot
     outerClothing: ClothingOuterSecurityVestHazard
     shoes: ClothingShoesBootsMagSecurity
-

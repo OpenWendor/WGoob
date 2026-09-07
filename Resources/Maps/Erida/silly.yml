@@ -30327,33 +30327,6 @@ entities:
       parent: 5532
     - type: Fixtures
       fixtures: {}
-- proto: PosterContrabandInteQJulie
-  entities:
-  - uid: 3518
-    components:
-    - type: Transform
-      pos: -18.5,16.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 3519
-    components:
-    - type: Transform
-      pos: -13.5,17.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 3520
-    components:
-    - type: Transform
-      pos: -16.5,19.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterContrabandLustyXenomorph
   entities:
   - uid: 6113

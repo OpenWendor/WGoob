@@ -191008,24 +191008,6 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 28361
-    components:
-    - type: Transform
-      pos: 67.5,67.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 28362
-    components:
-    - type: Transform
-      pos: 63.5,68.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterContrabandKosmicheskayaStantsiya
   entities:
   - uid: 28363

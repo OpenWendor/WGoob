@@ -202294,33 +202294,6 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 29228
-    components:
-    - type: Transform
-      pos: 11.5,-10.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 29229
-    components:
-    - type: Transform
-      pos: 8.5,-17.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQWorkship2
-  entities:
-  - uid: 29230
-    components:
-    - type: Transform
-      pos: 11.5,-12.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterContrabandKosmicheskayaStantsiya
   entities:
   - uid: 29231

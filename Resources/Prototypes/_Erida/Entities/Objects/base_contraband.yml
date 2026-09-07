@@ -1,7 +1,0 @@
-# non-stealth InteQ stuff
-- type: entity
-  id: BaseInteQContraband
-  abstract: true
-  components:
-  - type: Contraband
-    severity: InteQ

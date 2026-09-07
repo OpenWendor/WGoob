@@ -136748,24 +136748,6 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 20204
-    components:
-    - type: Transform
-      pos: -16.5,7.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 20205
-    components:
-    - type: Transform
-      pos: -15.5,2.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: PosterContrabandLustyXenomorph
   entities:
   - uid: 20206

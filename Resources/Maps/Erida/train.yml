@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   format: 7
   category: Map
   engineVersion: 275.2.0
@@ -15983,13 +15983,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 0.5,-20.5
       parent: 2
-- proto: AirlockHatchInteQ
-  entities:
-  - uid: 353
-    components:
-    - type: Transform
-      pos: -16.5,-290.5
-      parent: 2
 - proto: AirlockHatchMaint
   entities:
   - uid: 354
@@ -20924,13 +20917,6 @@ entities:
       - Robotics
       - Medical
       - CivilianServices
-- proto: BalloonInteQ
-  entities:
-  - uid: 1078
-    components:
-    - type: Transform
-      pos: -15.351515,-284.58734
-      parent: 2
 - proto: BalloonSyn
   entities:
   - uid: 1079
@@ -20955,18 +20941,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-276.5
-      parent: 2
-- proto: BannerInteQ
-  entities:
-  - uid: 1082
-    components:
-    - type: Transform
-      pos: -15.5,-283.5
-      parent: 2
-  - uid: 1083
-    components:
-    - type: Transform
-      pos: -15.5,-288.5
       parent: 2
 - proto: BarberScissors
   entities:
@@ -21536,13 +21510,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -2.5,-344.5
-      parent: 2
-- proto: BedsheetInteQ
-  entities:
-  - uid: 1188
-    components:
-    - type: Transform
-      pos: -17.5,-286.5
       parent: 2
 - proto: BedsheetMedical
   entities:
@@ -22817,16 +22784,6 @@ entities:
     - type: Transform
       pos: -6.2767687,-339.93176
       parent: 2
-- proto: BoxInteQ
-  entities:
-  - uid: 1414
-    components:
-    - type: Transform
-      parent: 1413
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 1413
 - proto: BoxLethalshot
   entities:
   - uid: 1415
@@ -22940,9 +22897,6 @@ entities:
         1429:
           position: 0,0
           _rotation: South
-        1430:
-          position: 1,0
-          _rotation: South
         1431:
           position: 4,0
           _rotation: South
@@ -22953,7 +22907,6 @@ entities:
           occludes: True
           ents:
           - 1429
-          - 1430
           - 1431
 - proto: BrigTimer
   entities:
@@ -51141,9 +51094,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6865
-          - 6866
     - type: Fixtures
       fixtures: {}
   - uid: 6867
@@ -51165,11 +51115,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6869
-          - 6868
-          - 6870
-          - 6871
     - type: Fixtures
       fixtures: {}
   - uid: 6872
@@ -51191,11 +51136,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6875
-          - 6873
-          - 6874
-          - 6876
     - type: Fixtures
       fixtures: {}
   - uid: 6877
@@ -51209,11 +51149,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6879
-          - 6878
-          - 6880
-          - 6881
     - type: EntityStorage
       air:
         volume: 200
@@ -51242,11 +51177,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6886
-          - 6885
-          - 6883
-          - 6884
     - type: Fixtures
       fixtures: {}
   - uid: 6887
@@ -51268,9 +51198,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 6888
-          - 6889
     - type: Fixtures
       fixtures: {}
 - proto: ClothingBackpackDuffelSurgeryFilled
@@ -51497,15 +51424,6 @@ entities:
     - type: Transform
       pos: -6.474791,-195.55786
       parent: 2
-- proto: ClothingHandsInteQTacticalMaidGloves
-  entities:
-  - uid: 6923
-    components:
-    - type: Transform
-      pos: -15.506778,-285.4547
-      parent: 2
-    - type: Physics
-      bodyStatus: InAir
 - proto: ClothingHandsTacticalMaidGloves
   entities:
   - uid: 6924
@@ -51609,25 +51527,6 @@ entities:
     components:
     - type: Transform
       pos: -29.542221,-250.76207
-      parent: 2
-- proto: ClothingHeadHatInteQSoft
-  entities:
-  - uid: 6942
-    components:
-    - type: Transform
-      pos: -15.473821,-287.20468
-      parent: 2
-- proto: ClothingHeadHatInteQTacticalMaidHeadband
-  entities:
-  - uid: 6943
-    components:
-    - type: Transform
-      pos: 17.614864,-163.17734
-      parent: 2
-  - uid: 6944
-    components:
-    - type: Transform
-      pos: 17.573198,-163.37526
       parent: 2
 - proto: ClothingHeadHatSurgcapPurple
   entities:
@@ -51846,14 +51745,6 @@ entities:
     - type: Transform
       pos: -0.98430085,-3.5043776
       parent: 2
-- proto: ClothingNeckCloakInteQ
-  entities:
-  - uid: 6992
-    components:
-    - type: Transform
-      pos: -15.427667,-286.3649
-      parent: 2
-    - type: Physics
       bodyStatus: InAir
 - proto: ClothingNeckCloakMoth
   entities:
@@ -52120,13 +52011,6 @@ entities:
     components:
     - type: Transform
       pos: -15.552796,-116.356964
-      parent: 2
-- proto: ClothingUniformJumpskirtInteQTacticalMaid
-  entities:
-  - uid: 7042
-    components:
-    - type: Transform
-      pos: -17.479637,-284.26932
       parent: 2
 - proto: ClothingUniformJumpskirtJanimaidmini
   entities:
@@ -70298,15 +70182,6 @@ entities:
     - type: PointLight
       energy: 1
       radius: 5
-- proto: FlagInteQ
-  entities:
-  - uid: 9733
-    components:
-    - type: Transform
-      pos: -16.5,-282.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: FlagLizard
   entities:
   - uid: 9734
@@ -101679,8 +101554,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 1414
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -102726,12 +102599,6 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: ItemFlagMiniInteQ
-  entities:
-  - uid: 14289
-    components:
-    - type: Transform
-      pos: -17.406254,-283.47433
       parent: 2
 - proto: JanitorialTrolley
   entities:
@@ -107494,79 +107361,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 7.5,-371.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQJulie
-  entities:
-  - uid: 14867
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -10.5,-370.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 14868
-    components:
-    - type: Transform
-      pos: -14.5,-284.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQNoSex
-  entities:
-  - uid: 14869
-    components:
-    - type: Transform
-      pos: -2.5,-8.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 14870
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -6.5,-371.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 14871
-    components:
-    - type: Transform
-      pos: -18.5,-284.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 14872
-    components:
-    - type: Transform
-      pos: -17.5,-109.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQVulp
-  entities:
-  - uid: 14873
-    components:
-    - type: Transform
-      pos: -1.5,-4.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 14874
-    components:
-    - type: Transform
-      pos: -18.5,-286.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: PosterContrabandInteQWorkship
-  entities:
-  - uid: 14875
-    components:
-    - type: Transform
-      pos: -14.5,-286.5
       parent: 2
     - type: Fixtures
       fixtures: {}
@@ -122426,13 +122220,6 @@ entities:
     - type: Transform
       pos: -21.5,-202.5
       parent: 2
-- proto: SpawnMobCarpBrownInteQ
-  entities:
-  - uid: 17294
-    components:
-    - type: Transform
-      pos: -16.5,-285.5
-      parent: 2
 - proto: SpawnMobCat
   entities:
   - uid: 17295
@@ -128588,13 +128375,6 @@ entities:
     components:
     - type: Transform
       pos: -4.5,-82.5
-      parent: 2
-- proto: VendingMachineInteQDrobeNerf
-  entities:
-  - uid: 18167
-    components:
-    - type: Transform
-      pos: -17.5,-285.5
       parent: 2
 - proto: VendingMachineJaniDrobe
   entities:

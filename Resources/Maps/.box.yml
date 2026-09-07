@@ -142969,10 +142969,8 @@ entities:
           occludes: True
           ents:
           - 11519
-          - invalid
           - 11523
           - 11521
-          - invalid
           - 11518
         paper_label: !type:ContainerSlot
           showEnts: False
@@ -160452,7 +160450,6 @@ entities:
       parent: 2
     - type: Blocking
       blockingToggleActionEntity: 7151
-      user: invalid
     - type: ActionsContainer
     - type: ContainerContainer
       containers:

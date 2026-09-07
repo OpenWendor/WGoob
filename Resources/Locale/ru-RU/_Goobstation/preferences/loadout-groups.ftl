@@ -16,6 +16,7 @@ loadout-group-ntr-neck = ПNT, шея
 loadout-group-ntr-jumpsuit = ПNT, комбинезон
 loadout-group-ntr-belt = ПNT, пояс
 loadout-group-ntr-shoes = ПNT, обувь
+loadout-group-bso-preset = ОСЩ, комплект
 loadout-group-bso-head = ОСЩ, голова
 loadout-group-bso-backpack = ОСЩ, рюкзак
 loadout-group-bso-jumpsuit = ОСЩ, комбинезон
