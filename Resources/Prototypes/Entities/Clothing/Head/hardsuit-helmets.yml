@@ -82,7 +82,39 @@
   - type: Sprite
     sprite: _Erida/Clothing/Head/Hardsuits/engineering.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Head/Hardsuits/engineering.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/engineering.rsi # Erida-edit
+    clothingVisuals:
+      head:
+      - state: equipped-head
+      - state: equipped-head-unshaded
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-vox
+      - state: equipped-head-unshaded-vox
+        shader: unshaded
+      head-vulpkanin:
+      - state: equipped-head-vulpkanin
+      - state: equipped-head-unshaded-vulpkanin
+        shader: unshaded
+      head-reptilian:
+      - state: equipped-head-reptilian
+      - state: equipped-head-unshaded-reptilian
+        shader: unshaded
+  - type: ToggleableVisuals # Erida-edit
+    spriteLayer: light
+    clothingVisuals:
+      head:
+      - state: equipped-head-light
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-light-vox
+        shader: unshaded
+      head-vulpkanin:
+      - state: equipped-head-light-vulpkanin
+        shader: unshaded
+      head-reptilian:
+      - state: equipped-head-light-reptilian
+        shader: unshaded
   - type: PointLight
     color: "#ffdbad"
   - type: PressureProtection
