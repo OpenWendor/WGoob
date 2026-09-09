@@ -1411,3 +1411,20 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/49
   avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
   title: eng hardsuit helmet fix
+- author: Wendor
+  changes:
+    - type: Add
+      message: Возвращен старый маппул
+    - type: Add
+      message: Возвращены старые карты в сборку
+    - type: Add
+      message: Мелкие правки
+    - type: Tweak
+      message: Ремапинг карты бокс
+    - type: Fix
+      message: Половина карт с прошлой сборки
+  id: 119
+  time: '2026-09-09T17:07:30.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/42
+  avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
+  title: Re maps
