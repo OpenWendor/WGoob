@@ -1428,3 +1428,12 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/42
   avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
   title: Re maps
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: Апстрим
+  id: 120
+  time: '2026-09-09T18:09:20.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/50
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Upstream
