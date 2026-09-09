@@ -147,7 +147,6 @@ namespace Content.IntegrationTests.Tests
             "EridaMeta",
             "EridaOasis",
             "EridaOmega",
-            "EridaPacked",
             "EridaPlasma",
             "EridaRook",
             "EridaShoukou",
@@ -210,7 +209,6 @@ namespace Content.IntegrationTests.Tests
             //"OriginHighPop",  //Not in pool
               "TestTeg",        //Dev map
             //"EridaTrain",     // erida edit
-              "EridaPacked",   // erida edit
               "Reach",
               "Saltern",
               "Serpentcrest",

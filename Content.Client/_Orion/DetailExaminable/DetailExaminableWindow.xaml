@@ -29,7 +29,7 @@
                     <Button Name="RotateLeftButton" Text="⬅" StyleClasses="OpenRight"/>
                     <Button Name="RotateRightButton" Text="➡" StyleClasses="OpenLeft"/>
                 </BoxContainer>
-                <TextureRect Name="Badge" SetSize="128 128" Stretch="KeepAspectCentered" TexturePath="/Textures/_Orion/Icons/inteq.png" HorizontalAlignment="Center" Visible="False" />
+                <TextureRect Name="Badge" SetSize="128 128" Stretch="KeepAspectCentered" HorizontalAlignment="Center" Visible="False" />
             </BoxContainer>
         </PanelContainer>
 

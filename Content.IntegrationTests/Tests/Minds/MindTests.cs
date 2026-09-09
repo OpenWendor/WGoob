@@ -57,6 +57,14 @@ public sealed partial class MindTests
         damage: 400
         behaviors:
         - !type:GibBehavior { }
+
+- type: entity
+  id: GhostRoleTestEntity
+  components:
+  - type: MindContainer
+  - type: GhostRole
+  - type: GhostTakeoverAvailable
+  - type: MobState
 ";
 
     [Test]
