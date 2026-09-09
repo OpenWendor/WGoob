@@ -97,7 +97,6 @@
     back:
     - Flash
     - ClothingBSOMaskGasSwat
-    - BlueShieldSetLoadouts
     - CombatKnifeSpetsnaz
 
 - type: chameleonOutfit

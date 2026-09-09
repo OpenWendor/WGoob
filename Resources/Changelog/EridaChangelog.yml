@@ -1341,3 +1341,90 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/41
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: Minor fix
+- author: Anilori
+  changes:
+    - type: Tweak
+      message: бронированные береты/каски/кепки убраны из принтера униформы
+  id: 113
+  time: '2026-09-04T22:22:48.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/43
+  avatar_url: https://avatars.githubusercontent.com/u/183598448?v=4
+  title: Что за бизнес
+- author: vanomorodellefake
+  changes:
+    - type: Fix
+      message: Борги и пропадающие текстуры
+  id: 114
+  time: '2026-09-05T09:50:33.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/46
+  avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
+  title: borg fixes
+- author: Lytheriia | Doner4037
+  changes:
+    - type: Add
+      message: 'Новый фон лобби '
+  id: 115
+  time: '2026-09-05T09:51:26.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/45
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: '[Add] New background'
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: СЩ получил частоту СБ
+    - type: Tweak
+      message: Всё оружие ОСЩ при спавне перенесено в его шкаф
+    - type: Tweak
+      message: Сила космического ветра сильно понижена
+  id: 116
+  time: '2026-09-05T11:46:19.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/47
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: '[Tweak] BSO changes | Space wind decreasing'
+- author: Anilori
+  changes:
+    - type: Tweak
+      message: Стоимость алмазной руды в поинтах уменьшена с 1000 до 350
+    - type: Tweak
+      message: >-
+        Из вотчеров при разделке падает необработанная алмазная руда дающая
+        поинты (1750 поинтов за тендрил)
+    - type: Tweak
+      message: Тендрилы вновь видно на ГПС при их прогрузке.
+    - type: Tweak
+      message: >-
+        Из сундука некрополиса вместе с бронёй аколита падают ещё шлем и
+        ботинки.
+    - type: Tweak
+      message: Протокинитический дробовик был улучшен
+  id: 117
+  time: '2026-09-06T08:38:07.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/44
+  avatar_url: https://avatars.githubusercontent.com/u/183598448?v=4
+  title: LavaTweaks
+- author: vanomorodellefake
+  changes:
+    - type: Fix
+      message: шлем инженерного скафандра вновь появляется
+  id: 118
+  time: '2026-09-07T20:03:54.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/49
+  avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
+  title: eng hardsuit helmet fix
+- author: Wendor
+  changes:
+    - type: Add
+      message: Возвращен старый маппул
+    - type: Add
+      message: Возвращены старые карты в сборку
+    - type: Add
+      message: Мелкие правки
+    - type: Tweak
+      message: Ремапинг карты бокс
+    - type: Fix
+      message: Половина карт с прошлой сборки
+  id: 119
+  time: '2026-09-09T17:07:30.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/42
+  avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
+  title: Re maps
