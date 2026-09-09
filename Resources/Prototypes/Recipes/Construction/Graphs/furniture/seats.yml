@@ -235,6 +235,19 @@
             - tool: Screwing
               doAfter: 1
 
+    # erida edit
+    - node: chairDarkComfy
+      entity: ComfyDarkChair
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
     - node: chairPilotSeat
       entity: ChairPilotSeat
       edges:

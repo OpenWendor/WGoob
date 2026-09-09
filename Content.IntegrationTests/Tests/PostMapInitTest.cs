@@ -114,41 +114,63 @@ namespace Content.IntegrationTests.Tests
             // if upstreaming take ours here and edit manually.
             //"Amber", kill
             "Atlas",
-            "Bagel",
+            "BackmenAspid",
+            "BackmenBox",
+            "BackmenDelta",
+            "BackmenHive",
+            "BackmenKettle",
+            "BackmenRook",
+            "BackmenShoukou",
+            "BackmenTortuga",
             "Barratry",
-            "Box",            // Not in pool
             "CentComm",       // CentComm
             "Chloris",
             "Cluster",
             "Cog",
             "Core",           // Not in pool.
+            "CorvaxSilly",
             "Delta",
             "Dev",            // Dev map
             "dm01-entryway",  // Deathmatch
+            "EridaAmber",
+            "EridaAspid",
+            "EridaBagel",
+            "EridaBox",
+            "EridaConvex",
+            "EridaDelta",
+            "EridaElkridge",
+            "EridaFland",
+            "EridaHive",
+            "EridaKettle",
+            "EridaLoop",
+            "EridaMarathon",
+            "EridaMeta",
+            "EridaOasis",
+            "EridaOmega",
+            "EridaPlasma",
+            "EridaRook",
+            "EridaShoukou",
+            "EridaTortuga",
+            "EridaTrain",
             "Europa",         // Not in pool.
             "Exo",          // okay fine fuck it.
-            "Fland",
             "FlandHighPop",
             "Kettle",
             "Lambda",         // Not in pool
             "Lavatest",       // Dev map
             "Leonid",
             "Loop",
-            "Marathon",
             "Meta",
             "MeteorArena",    // Deathmatch
-            "Oasis",
             "OasisHighPop",
             "Omega",
             "Origin",
             "OriginHighPop",  // Not in pool
-            "Packed",
             "Reach",
             "Saltern",
             "Serpentcrest",
             "Snowball",
             "TestTeg",        // Dev map
-            "Train"           // Not in pool
             // Goob end
         };
         // Goobstation edit start, yeah i know, but this is easier and less load than loading protoman or something.
@@ -157,9 +179,9 @@ namespace Content.IntegrationTests.Tests
             // order this list alphabetically, mark dev maps
               //"Amber", kill
               "Atlas",
-              "Bagel",
+              "EridaBagel", // erida edit
              //  "Barratry", kill memory concerns
-            //"Box",            // Not in pool
+            //"EridaBox",    // erida edit
               "CentComm",      // CentComm
               "Chloris",
               "Cluster",
@@ -170,24 +192,23 @@ namespace Content.IntegrationTests.Tests
             //"dm01-entryway",  // Deathmatch
             //"Europa",         // Not in pool.
               "Exo",
-            //  "Fland",        // kill due to mem
+            //  "EridaFland",  // erida edit
               "FlandHighPop",
               "Kettle",
             //"Lambda",         // Not in pool
               "Lavatest",       //Dev map
               "Leonid",
               "Loop",
-              "Marathon",
+              "EridaMarathon", // erida edit
               "Meta",
             //"MeteorArena",    // Deathmatch
-            //  "Oasis",        // kill due to memory
+            //  "EridaOasis",  // erida edit
               "OasisHighPop",
               "Omega",
               "Origin",
             //"OriginHighPop",  //Not in pool
               "TestTeg",        //Dev map
-            //"Train",          //Not in pool
-              "Packed",
+            //"EridaTrain",     // erida edit
               "Reach",
               "Saltern",
               "Serpentcrest",

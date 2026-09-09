@@ -157,6 +157,18 @@
 
 - type: entity
   parent: IDCardStandard
+  id: PilotIDCard
+  name: pilot ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idseniorofficer
+  - type: PresetIdCard
+    job: SecurityPilot
+
+- type: entity
+  parent: IDCardStandard
   id: WardenIDCard
   name: warden ID card
   components:
@@ -391,6 +403,19 @@
         - state: idlawyer
     - type: PresetIdCard
       job: Lawyer
+
+# erida edit
+- type: entity
+  parent: IDCardStandard
+  id: IAAIDCard
+  name: internal affairs agent ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idlawyer
+    - type: PresetIdCard
+      job: IAA
 
 - type: entity
   parent: IDCardStandard

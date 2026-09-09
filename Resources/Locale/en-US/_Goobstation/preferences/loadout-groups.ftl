@@ -18,6 +18,7 @@ loadout-group-ntr-jumpsuit = Nanotrasen Representative jumpsuit
 loadout-group-ntr-belt = Nanotrasen Representative belt
 loadout-group-ntr-shoes = Nanotrasen Representative shoes
 
+loadout-group-bso-preset = Blueshield Officer preset
 loadout-group-bso-head = Blueshield Officer head
 loadout-group-bso-backpack = Blueshield Officer backpack
 loadout-group-bso-jumpsuit = Blueshield Officer jumpsuit

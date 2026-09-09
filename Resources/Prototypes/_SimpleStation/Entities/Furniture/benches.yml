@@ -335,3 +335,13 @@
   - type: Construction # Frontier
     graph: SofasGraph # Frontier
     node: BenchSofaCorpCornerNode # Frontier
+
+# erida edit
+- type: entity
+  parent: BenchSofaCorpMiddle
+  id: BenchSofaCorpCornerOut
+  suffix: Corner-Out
+  components:
+  - type: Sprite
+    sprite: _Backmen/Structures/Benches/sofa_corp.rsi
+    state: corner_out
