@@ -86,16 +86,15 @@ namespace Content.Goobstation.Server.ServerCurrency
                         && mind.OriginalOwnerUserId.HasValue
                         && _players.TryGetSessionById(mind.UserId, out var session))
                     {
-                        int money = _goobcoinsPerPlayer;
-                        if (session is not null)
-                        {
-                            money += _jobs.GetJobGoobcoins(session);
-                            if (!_jobs.CanBeAntag(session))
-                                money *= _goobcoinsNonAntagMultiplier;
-                        }
+                        // Goobstation: hourly pay. Job goobcoins is the hourly rate.
+                        var hours = _gameTicker.RoundDuration().TotalHours;
+                        double money = session is not null ? _jobs.GetJobGoobcoins(session) : _goobcoinsPerPlayer;
+                        money *= hours;
+                        if (session is not null && !_jobs.CanBeAntag(session))
+                            money *= _goobcoinsNonAntagMultiplier;
 
                         if(_goobcoinsUseLowPopMultiplier)
-                            money += (int)Math.Round(money * lowPopMultiplier * _goobcoinsLowPopMultiplierStrength);
+                            money += money * lowPopMultiplier * _goobcoinsLowPopMultiplierStrength;
 
                         if (_goobcoinsServerMultiplier != 1)
                             money *= _goobcoinsServerMultiplier;
@@ -103,13 +102,7 @@ namespace Content.Goobstation.Server.ServerCurrency
                         if (session != null && _linkAccount.GetPatron(session)?.Tier != null)
                             money *= 2;
 
-                        if (_goobcoinsUseShortRoundPenalty)
-                        {
-                            var roundMinutesActual = _gameTicker.RoundDuration().TotalMinutes;
-                            money = (int) (money * Math.Min(1, roundMinutesActual / _goobcoinsShortRoundPenaltyTargetMinutes));
-                        }
-
-                        _currencyMan.AddCurrency(mind.OriginalOwnerUserId.Value, money);
+                        _currencyMan.AddCurrency(mind.OriginalOwnerUserId.Value, (int)Math.Round(money));
                     }
                 }
             }

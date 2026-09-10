@@ -23,7 +23,7 @@
       - Felinid
   guides:
   - Command
-  goobcoins: 45
+  goobcoins: 50
   weight: 20
   startingGear: BlueshieldOfficerGear
   icon: "JobIconBlueshield"
