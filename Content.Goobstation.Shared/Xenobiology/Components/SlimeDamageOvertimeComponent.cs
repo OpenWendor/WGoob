@@ -38,6 +38,9 @@ public sealed partial class SlimeDamageOvertimeComponent : Component
     [DataField]
     public TimeSpan Interval = TimeSpan.FromSeconds(1);
 
+    [DataField]
+    public float UnlatchBloodPercentage = 0.15f;
+
     [ViewVariables(VVAccess.ReadOnly)]
     public TimeSpan NextTickTime = TimeSpan.Zero;
 

@@ -24,6 +24,7 @@ using Content.Shared.Body.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Goobstation.Maths.FixedPoint;
 using Content.Shared.Chemistry.Components;
+using Content.Shared.Verbs;
 
 namespace Content.Goobstation.Server.Xenobiology;
 
@@ -57,6 +58,8 @@ public sealed partial class SlimeLatchSystem : EntitySystem
         SubscribeLocalEvent<SlimeComponent, EntGotRemovedFromContainerMessage>(OnEntGotRemovedFromContainer);
         SubscribeLocalEvent<SlimeComponent, EntGotInsertedIntoContainerMessage>(OnEntGotInsertedIntoContainer);
         SubscribeLocalEvent<SlimeComponent, SlimeMitosisEvent>(OnSlimeMitosis);
+        SubscribeLocalEvent<SlimeComponent, SlimeUnlatchDoAfterEvent>(OnSlimeUnlatchDoAfter);
+        SubscribeLocalEvent<SlimeComponent, GetVerbsEvent<InteractionVerb>>(OnGetVerbs);
     }
 
     public override void Update(float frameTime)
@@ -86,8 +89,10 @@ public sealed partial class SlimeLatchSystem : EntitySystem
             Dirty(source, hunger);
         }
 
-        var stomachList = _body.GetBodyOrganEntityComps<StomachComponent>(source);
+        if (!HasComp<BodyComponent>(source))
+            return;
 
+        var stomachList = _body.GetBodyOrganEntityComps<StomachComponent>(source);
         if (stomachList.Count == 0)
             return;
 
@@ -102,7 +107,19 @@ public sealed partial class SlimeLatchSystem : EntitySystem
             && _solutionContainer.ResolveSolution(ent.Owner, bloodstream.BloodSolutionName, ref bloodstream.BloodSolution, out var blood)
             && _solutionContainer.ResolveSolution(ent.Owner, bloodstream.BloodSolutionName, ref bloodstream.BloodSolution, out var chem))
         {
-            FixedPoint2 bloodProportion = blood.Volume/(chem.Volume + blood.Volume);
+            if (blood.MaxVolume > 0
+                && blood.Volume/blood.MaxVolume <= ent.Comp.UnlatchBloodPercentage
+                && TryComp<SlimeComponent>(source, out var unlatchSlime))
+            {
+                Unlatch((source, unlatchSlime));
+                return;
+            }
+
+            var totalVolume = chem.Volume + blood.Volume;
+            if (totalVolume <= 0)
+                return;
+
+            FixedPoint2 bloodProportion = blood.Volume/totalVolume;
             FixedPoint2 chemProportion = 1 - bloodProportion;
             FixedPoint2 bloodTransfer = FixedPoint2.Min(ent.Comp.SuctionUnits * bloodProportion, availabaleVolume * bloodProportion);
             FixedPoint2 chemTransfer = FixedPoint2.Min(ent.Comp.SuctionUnits * chemProportion, availabaleVolume * chemProportion);
@@ -157,6 +174,45 @@ public sealed partial class SlimeLatchSystem : EntitySystem
     private void OnSlimeMitosis(Entity<SlimeComponent> ent, ref SlimeMitosisEvent args)
     {
         Unlatch(ent);
+    }
+
+    private void OnGetVerbs(Entity<SlimeComponent> ent, ref GetVerbsEvent<InteractionVerb> args) // erida edit
+    {
+        if (!IsLatched(ent) || args.CanAccess == false || args.CanInteract == false)
+            return;
+
+        var user = args.User;
+        InteractionVerb verb = new()
+        {
+            Act = () => TryStartSlimeUnlatch(ent, user),
+            Text = Loc.GetString("slime-latch-unlatch-verb"),
+            Priority = 1,
+        };
+        args.Verbs.Add(verb);
+    }
+
+    private void TryStartSlimeUnlatch(Entity<SlimeComponent> ent, EntityUid user) // erida edit
+    {
+        var doAfterArgs = new DoAfterArgs(EntityManager, user, ent.Comp.UnlatchDoAfterDuration,
+            new SlimeUnlatchDoAfterEvent(), ent, used: ent)
+        {
+            BreakOnDamage = true,
+            BreakOnMove = true,
+            BreakOnHandChange = true,
+            NeedHand = true,
+        };
+
+        if (_doAfter.TryStartDoAfter(doAfterArgs))
+            _popup.PopupEntity(Loc.GetString("slime-unlatch-attempt"), user, user);
+    }
+
+    private void OnSlimeUnlatchDoAfter(Entity<SlimeComponent> ent, ref SlimeUnlatchDoAfterEvent args) // erida edit
+    {
+        if (args.Handled || args.Cancelled)
+            return;
+
+        Unlatch(ent);
+        args.Handled = true;
     }
 
     private void OnLatchAttempt(SlimeLatchEvent args)

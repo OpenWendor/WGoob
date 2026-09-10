@@ -21,6 +21,10 @@ public sealed partial class XenoVacClearEvent : InstantActionEvent;
 [Serializable, NetSerializable]
 public sealed partial class SlimeLatchDoAfterEvent : SimpleDoAfterEvent;
 
+// erida edit
+[Serializable, NetSerializable]
+public sealed partial class SlimeUnlatchDoAfterEvent : SimpleDoAfterEvent;
+
 [Serializable, NetSerializable]
 public sealed partial class EatCorpseDoAfterEvent : SimpleDoAfterEvent;
 

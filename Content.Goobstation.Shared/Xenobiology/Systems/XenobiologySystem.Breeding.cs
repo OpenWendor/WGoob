@@ -64,6 +64,7 @@ public partial class XenobiologySystem
     private void UpdateMitosis()
     {
         var query = EntityQueryEnumerator<SlimeComponent, MobGrowthComponent, HungerComponent>();
+        List<Entity<SlimeComponent>> toMitose = [];
         while (query.MoveNext(out var uid, out var slime, out var growthComp, out var hungerComp))
         {
             if (_gameTiming.CurTime < slime.NextUpdateTime
@@ -77,8 +78,13 @@ public partial class XenobiologySystem
             if (_hunger.GetHunger(hungerComp) < slime.MitosisHunger)
                 continue;
 
-            DoMitosis((uid, slime));
-            slime.NextUpdateTime = _gameTiming.CurTime + slime.UpdateInterval;
+            toMitose.Add((uid, slime));
+        }
+
+        foreach (var ent in toMitose)
+        {
+            DoMitosis(ent);
+            ent.Comp.NextUpdateTime = _gameTiming.CurTime + ent.Comp.UpdateInterval;
         }
     }
 
