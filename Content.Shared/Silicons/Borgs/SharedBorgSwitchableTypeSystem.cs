@@ -124,7 +124,13 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
         if (!Prototypes.Resolve(entity.Comp.SelectedBorgType, out var proto) || // GOOB
             !TryComp(entity, out BorgSwitchableSubtypeComponent? subtype) ||
             !Prototypes.Resolve(subtype.BorgSubtype, out var subtypeProto))
+        {
+            // <Goob>
+            if (proto is not null)
+                UpdateEntityAppearance(entity, proto);
+            // </Goob>
             return;
+        }
 
         UpdateEntityAppearance(entity, proto, subtypeProto);
     }
@@ -132,11 +138,11 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
     protected virtual void UpdateEntityAppearance(
         Entity<BorgSwitchableTypeComponent> entity,
         BorgTypePrototype prototype,
-        BorgSubtypePrototype subtypePrototype) // GOOB
+        BorgSubtypePrototype? subtypePrototype = null) // GOOB
     {
 
         // Erida start
-        if (subtypePrototype.StatesWhiteList.Count != 0)
+        if (subtypePrototype != null && subtypePrototype.StatesWhiteList.Count != 0)
         {
             var switchableState = EnsureComp<BorgSwitchableStateComponent>(entity.Owner);
             switchableState.DoAfterDuration = subtypePrototype.DoAfterDuration;
@@ -162,11 +168,11 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
         }
 
         // Erida start
-        var movementState = subtypePrototype.HaveMotionAnimation != null && subtypePrototype.HaveMotionAnimation.Value
+        var movementState = subtypePrototype != null && subtypePrototype.HaveMotionAnimation != null && subtypePrototype.HaveMotionAnimation.Value
             ? prototype.SpriteBodyState + "_moving"
             : prototype.SpriteBodyMovementState;
 
-        if (movementState is null || subtypePrototype.HaveMotionAnimation == false)
+        if (movementState is null || subtypePrototype != null && subtypePrototype.HaveMotionAnimation == false)
         {
             RemComp<SpriteMovementComponent>(entity);
             return;
