@@ -1592,7 +1592,7 @@ Entries:
   url: https://github.com/space-wizards/space-station-14/pull/42209
 - author: Kowlin
   changes:
-  - message: The super door remote can now set overcharge on airlocks.
+  - message: The super door remote can now set overcharge on airlocks.ы
     type: Tweak
   id: 194
   time: '2026-01-13T01:02:06.0000000+00:00'
