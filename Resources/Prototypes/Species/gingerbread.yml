@@ -21,6 +21,10 @@
     HeadSide: MobHumanoidAnyMarking
     Chest: MobGingerbreadChest
     Groin: MobGingerbreadGroin
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     Eyes: MobGingerbreadEyes
     LArm: MobGingerbreadLArm
     RArm: MobGingerbreadRArm

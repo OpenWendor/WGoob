@@ -1,0 +1,622 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# erida edit
+- type: marking
+  id: GenitalBreastsPair0
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_0_front
+
+- type: marking
+  id: GenitalBreastsPair1
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_1_front
+
+- type: marking
+  id: GenitalBreastsPair2
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_2_front
+
+- type: marking
+  id: GenitalBreastsPair3
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_3_front
+
+- type: marking
+  id: GenitalBreastsPair4
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_4_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_4_behind: pair_4_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_4_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_4_behind
+
+- type: marking
+  id: GenitalBreastsPair5
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_5_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_5_behind: pair_5_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_5_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_5_behind
+
+- type: marking
+  id: GenitalBreastsPair6
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_6_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_6_behind: pair_6_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_6_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_6_behind
+
+- type: marking
+  id: GenitalBreastsPair7
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_7_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_7_behind: pair_7_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_7_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_7_behind
+
+- type: marking
+  id: GenitalBreastsPair8
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_8_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_8_behind: pair_8_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_8_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_8_behind
+
+- type: marking
+  id: GenitalBreastsPair9
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_9_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_9_behind: pair_9_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_9_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_9_behind
+
+- type: marking
+  id: GenitalBreastsPair10
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_10_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_10_behind: pair_10_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_10_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_10_behind
+
+- type: marking
+  id: GenitalBreastsPair11
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_11_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_11_behind: pair_11_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_11_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_11_behind
+
+- type: marking
+  id: GenitalBreastsPair12
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_12_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_12_behind: pair_12_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_12_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_12_behind
+
+- type: marking
+  id: GenitalBreastsPair13
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_13_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_13_behind: pair_13_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_13_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_13_behind
+
+- type: marking
+  id: GenitalBreastsPair14
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_14_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_14_behind: pair_14_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_14_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_14_behind
+
+- type: marking
+  id: GenitalBreastsPair15
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_15_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_15_behind: pair_15_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_15_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_15_behind
+
+- type: marking
+  id: GenitalBreastsPair16
+  bodyPart: GenitalBreasts
+  markingCategory: GenitalBreasts
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_16_behind: GenitalBreastsBehind
+  colorLinks:
+    pair_16_behind: pair_16_front
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_16_front
+  - sprite: _Erida/Mobs/Customization/genitals/breasts_onmob.rsi
+    state: pair_16_behind
+
+- type: marking
+  id: GenitalTesticlesPair0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_0_behind: GenitalGroinBehind
+  colorLinks:
+    pair_0_behind: pair_0_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_0_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_0_behind
+
+- type: marking
+  id: GenitalTesticlesPair1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_1_behind: GenitalGroinBehind
+  colorLinks:
+    pair_1_behind: pair_1_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_1_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_1_behind
+
+- type: marking
+  id: GenitalTesticlesPair2
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_2_behind: GenitalGroinBehind
+  colorLinks:
+    pair_2_behind: pair_2_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_2_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_2_behind
+
+- type: marking
+  id: GenitalTesticlesPair3
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_3_behind: GenitalGroinBehind
+  colorLinks:
+    pair_3_behind: pair_3_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_3_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_3_behind
+
+- type: marking
+  id: GenitalTesticlesPair4
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_4_behind: GenitalGroinBehind
+  colorLinks:
+    pair_4_behind: pair_4_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_4_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_4_behind
+
+- type: marking
+  id: GenitalTesticlesPair5
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_5_behind: GenitalGroinBehind
+  colorLinks:
+    pair_5_behind: pair_5_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_5_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_5_behind
+
+- type: marking
+  id: GenitalTesticlesPair6
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  layering:
+    pair_6_behind: GenitalGroinBehind
+  colorLinks:
+    pair_6_behind: pair_6_adj
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_6_adj
+  - sprite: _Erida/Mobs/Customization/genitals/testicles_onmob.rsi
+    state: pair_6_behind
+
+- type: marking
+  id: GenitalVaginaHuman0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: human_0
+
+- type: marking
+  id: GenitalVaginaHuman1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: human_1
+
+- type: marking
+  id: GenitalVaginaGaping0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: gaping_0
+
+- type: marking
+  id: GenitalVaginaGaping1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: gaping_1_primary
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: gaping_1_secondary
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: gaping_1_tertiary
+
+- type: marking
+  id: GenitalVaginaTentacle0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: tentacle_0
+
+- type: marking
+  id: GenitalVaginaTentacle1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: tentacle_1
+
+- type: marking
+  id: GenitalVaginaDentata0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: dentata_0
+
+- type: marking
+  id: GenitalVaginaDentata1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: dentata_1_primary
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: dentata_1_secondary
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: dentata_1_tertiary
+
+- type: marking
+  id: GenitalVaginaExtraDentata1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: extra_dentata_1
+
+- type: marking
+  id: GenitalVaginaHairy0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: hairy_0
+
+- type: marking
+  id: GenitalVaginaHairy1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: hairy_1
+
+- type: marking
+  id: GenitalVaginaFurred0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: furred_0
+
+- type: marking
+  id: GenitalVaginaFurred1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: furred_1
+
+- type: marking
+  id: GenitalVaginaSpade0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: spade_0
+
+- type: marking
+  id: GenitalVaginaSpade1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: spade_1
+
+- type: marking
+  id: GenitalVaginaCloaca0
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: cloaca_0
+
+- type: marking
+  id: GenitalVaginaCloaca1
+  bodyPart: GenitalGroin
+  markingCategory: GenitalGroin
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Erida/Mobs/Customization/genitals/vagina_onmob.rsi
+    state: cloaca_1

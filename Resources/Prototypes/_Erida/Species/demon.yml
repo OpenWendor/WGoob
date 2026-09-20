@@ -51,6 +51,12 @@
     Chest:
       points: 10
       required: false
+    GenitalBreasts:
+      points: 10
+      required: false
+    GenitalGroin:
+      points: 10
+      required: false # erida edit
     Tail:
       points: 10
       required: false

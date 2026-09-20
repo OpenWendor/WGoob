@@ -18,6 +18,10 @@ namespace Content.Shared.Humanoid
         FacialHair,
         UndergarmentTop,
         UndergarmentBottom,
+        GenitalBreasts,
+        GenitalBreastsBehind,
+        GenitalGroin,
+        GenitalGroinBehind, // erida edit
         Face, // EE Plasmeme Port
         Chest,
         Groin,

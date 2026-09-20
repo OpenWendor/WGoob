@@ -19,6 +19,10 @@
     Head: MobSkeletonHead
     Chest: MobSkeletonChest
     Groin: MobSkeletonGroin
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     LArm: MobSkeletonLArm
     RArm: MobSkeletonRArm
     LHand: MobSkeletonLHand

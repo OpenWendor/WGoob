@@ -70,11 +70,15 @@ namespace Content.Shared.Humanoid
                     yield return HumanoidVisualLayers.Chest;
                     yield return HumanoidVisualLayers.Wings; // for IPC wings port from SimpleStation
                     yield return HumanoidVisualLayers.Tail;
+                    yield return HumanoidVisualLayers.GenitalBreasts;
+                    yield return HumanoidVisualLayers.GenitalBreastsBehind; // erida edit
                 // Shitmed Change Start
                     yield return HumanoidVisualLayers.Groin;
                     break;
                 case HumanoidVisualLayers.Groin:
                     yield return HumanoidVisualLayers.Groin;
+                    yield return HumanoidVisualLayers.GenitalGroin;
+                    yield return HumanoidVisualLayers.GenitalGroinBehind; // erida edit
                     yield return HumanoidVisualLayers.Tail;
                     yield return HumanoidVisualLayers.TailBehind;
                     yield return HumanoidVisualLayers.TailBehindBackpack;

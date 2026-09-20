@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "converted by OW",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pair_0_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_0_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_1_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_1_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_2_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_2_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_3_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_3_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_4_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_4_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_5_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_5_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_6_adj",
+      "directions": 4
+    },
+    {
+      "name": "pair_6_behind",
+      "directions": 4
+    }
+  ]
+}

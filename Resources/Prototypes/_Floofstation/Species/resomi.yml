@@ -36,6 +36,10 @@
     Snout: MobHumanoidAnyMarking
     Chest: MobResomiChest
     Groin: MobResomiGroin
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     Eyes: MobResomiEyes
     LArm: MobResomiLArm
     RArm: MobResomiRArm
@@ -71,6 +75,12 @@
     Chest:
       points: 100
       required: false
+    GenitalBreasts:
+      points: 10
+      required: false
+    GenitalGroin:
+      points: 10
+      required: false # erida edit
     RightLeg:
       points: 10
       required: false

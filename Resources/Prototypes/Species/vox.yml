@@ -27,6 +27,10 @@
     FacialHair: MobHumanoidAnyMarking
     Chest: MobVoxChest
     Groin: MobVoxGroin
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     Eyes: MobVoxEyes
     LArm: MobVoxLArm
     RArm: MobVoxRArm
@@ -68,6 +72,12 @@
     Chest:
       points: 10
       required: false
+    GenitalBreasts:
+      points: 10
+      required: false
+    GenitalGroin:
+      points: 10
+      required: false # erida edit
     RightLeg:
       points: 10
       required: false

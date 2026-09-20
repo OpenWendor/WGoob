@@ -281,6 +281,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             {
                 if (_markingManager.TryGetMarking(marking, out var markingPrototype))
                 {
+                    // erida edit
+                    if (censorNudity && (markingPrototype.MarkingCategory == MarkingCategories.GenitalBreasts
+                        || markingPrototype.MarkingCategory == MarkingCategories.GenitalGroin))
+                        continue;
                     ApplyMarking(markingPrototype, marking.MarkingColors, marking.Visible, entity);
                     if (markingPrototype.BodyPart == HumanoidVisualLayers.UndergarmentTop)
                         applyUndergarmentTop = false;

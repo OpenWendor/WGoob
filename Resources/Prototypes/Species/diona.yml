@@ -25,6 +25,10 @@
     HeadSide: MobHumanoidAnyMarking
     Chest: MobDionaChest
     Groin: MobDionaGroin
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     Eyes: MobDionaEyes
     LArm: MobDionaLArm
     RArm: MobDionaRArm
@@ -50,6 +54,12 @@
     Chest:
       points: 10
       required: false
+    GenitalBreasts:
+      points: 10
+      required: false
+    GenitalGroin:
+      points: 10
+      required: false # erida edit
     RightLeg:
       points: 10
       required: false

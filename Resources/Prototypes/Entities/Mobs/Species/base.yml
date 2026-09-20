@@ -14,6 +14,8 @@
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.TailBehind" ] # Floof
+    - map: [ "enum.HumanoidVisualLayers.GenitalBreastsBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalGroinBehind" ] # erida edit
     - map: [ "enum.HumanoidVisualLayers.Groin" ]
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
     - map: [ "enum.HumanoidVisualLayers.Head" ]
@@ -23,6 +25,8 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalBreasts" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalGroin" ] # erida edit
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     # Erida start
@@ -373,6 +377,8 @@
     # TODO BODY Turn these into individual body parts?
     layers:
     - map: [ "enum.HumanoidVisualLayers.TailBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalBreastsBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalGroinBehind" ] # erida edit
     - map: [ "enum.HumanoidVisualLayers.Groin" ]
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
     - map: [ "enum.HumanoidVisualLayers.Head" ]
@@ -382,6 +388,8 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalBreasts" ]
+    - map: [ "enum.HumanoidVisualLayers.GenitalGroin" ] # erida edit
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     # Erida start

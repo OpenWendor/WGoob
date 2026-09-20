@@ -35,6 +35,10 @@
     Snout: MobHumanoidAnyMarking
     Chest: MobMothChest
     Groin: MobMothGroin # Goob
+    GenitalBreasts: MobHumanoidAnyMarking
+    GenitalBreastsBehind: MobHumanoidAnyMarking
+    GenitalGroin: MobHumanoidAnyMarking
+    GenitalGroinBehind: MobHumanoidAnyMarking # erida edit
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
@@ -83,6 +87,12 @@
     Chest:
       points: 10
       required: false
+    GenitalBreasts:
+      points: 10
+      required: false
+    GenitalGroin:
+      points: 10
+      required: false # erida edit
     RightLeg:
       points: 10
       required: false

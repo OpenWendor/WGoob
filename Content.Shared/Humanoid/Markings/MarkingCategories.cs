@@ -19,6 +19,8 @@ namespace Content.Shared.Humanoid.Markings
         Chest,
         UndergarmentTop,
         UndergarmentBottom,
+        GenitalBreasts,
+        GenitalGroin, // erida edit
         RightArm,
         RightHand,
         LeftArm,
@@ -52,6 +54,10 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.Chest => MarkingCategories.Chest,
                 HumanoidVisualLayers.UndergarmentTop => MarkingCategories.UndergarmentTop,
                 HumanoidVisualLayers.UndergarmentBottom => MarkingCategories.UndergarmentBottom,
+                HumanoidVisualLayers.GenitalBreasts => MarkingCategories.GenitalBreasts,
+                HumanoidVisualLayers.GenitalBreastsBehind => MarkingCategories.GenitalBreasts,
+                HumanoidVisualLayers.GenitalGroin => MarkingCategories.GenitalGroin,
+                HumanoidVisualLayers.GenitalGroinBehind => MarkingCategories.GenitalGroin, // erida edit
                 HumanoidVisualLayers.Groin => MarkingCategories.Groin, // Shitmed Change
                 HumanoidVisualLayers.RArm => MarkingCategories.RightArm, // Goobstation
                 HumanoidVisualLayers.LArm => MarkingCategories.LeftArm, // Goobstation

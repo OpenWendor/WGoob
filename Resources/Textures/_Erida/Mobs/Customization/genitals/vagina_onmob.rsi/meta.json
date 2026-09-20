@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "converted by OW",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "human_0",
+      "directions": 4
+    },
+    {
+      "name": "human_1",
+      "directions": 4
+    },
+    {
+      "name": "gaping_0",
+      "directions": 4
+    },
+    {
+      "name": "gaping_1_primary",
+      "directions": 4
+    },
+    {
+      "name": "gaping_1_secondary",
+      "directions": 4
+    },
+    {
+      "name": "gaping_1_tertiary",
+      "directions": 4
+    },
+    {
+      "name": "tentacle_0",
+      "directions": 4
+    },
+    {
+      "name": "tentacle_1",
+      "directions": 4
+    },
+    {
+      "name": "dentata_0",
+      "directions": 4
+    },
+    {
+      "name": "extra_dentata_1",
+      "directions": 4
+    },
+    {
+      "name": "dentata_1_primary",
+      "directions": 4
+    },
+    {
+      "name": "dentata_1_secondary",
+      "directions": 4
+    },
+    {
+      "name": "dentata_1_tertiary",
+      "directions": 4
+    },
+    {
+      "name": "hairy_0",
+      "directions": 4
+    },
+    {
+      "name": "hairy_1",
+      "directions": 4
+    },
+    {
+      "name": "furred_0",
+      "directions": 4
+    },
+    {
+      "name": "furred_1",
+      "directions": 4
+    },
+    {
+      "name": "spade_0",
+      "directions": 4
+    },
+    {
+      "name": "spade_1",
+      "directions": 4
+    },
+    {
+      "name": "cloaca_0",
+      "directions": 4
+    },
+    {
+      "name": "cloaca_1",
+      "directions": 4
+    }
+  ]
+}
