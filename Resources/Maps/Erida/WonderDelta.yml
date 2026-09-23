@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.1.1
   forkId: dserida
   forkVersion: 6885d57fafae6dda96f24d6fb6064ea79524223f
-  time: 09/23/2026 12:24:49
-  entityCount: 41722
+  time: 09/23/2026 13:17:18
+  entityCount: 41723
 maps:
 - 1
 grids:
@@ -25942,7 +25942,7 @@ entities:
       pos: -8.5,36.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -368642.2
+      secondsUntilStateChange: -369787.25
       state: Opening
 - proto: AirlockBlueshieldOfficerCommandGlassLocked
   entities:
@@ -26188,7 +26188,7 @@ entities:
       pos: -116.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -379271.6
+      secondsUntilStateChange: -380416.66
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26199,7 +26199,7 @@ entities:
       pos: -120.5,23.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2924.439
+      secondsUntilStateChange: -4069.5002
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26300,7 +26300,7 @@ entities:
       pos: 15.5,14.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -114994.57
+      secondsUntilStateChange: -116139.63
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26543,7 +26543,7 @@ entities:
       pos: -74.5,0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -363573.66
+      secondsUntilStateChange: -364718.72
       state: Opening
   - uid: 391
     components:
@@ -27109,7 +27109,7 @@ entities:
       pos: 90.5,21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -237347.16
+      secondsUntilStateChange: -238492.22
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -27138,7 +27138,7 @@ entities:
       pos: 4.5,0.5
       parent: 41170
     - type: Door
-      secondsUntilStateChange: -237346.53
+      secondsUntilStateChange: -238491.6
       changeAirtight: False
       state: Opening
     - type: Docking
@@ -27746,7 +27746,7 @@ entities:
       pos: -29.5,39.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -368679.2
+      secondsUntilStateChange: -369824.25
       state: Opening
 - proto: AirlockKitchenLocked
   entities:
@@ -27820,7 +27820,7 @@ entities:
       pos: 44.5,29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -306741.9
+      secondsUntilStateChange: -307886.97
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -28084,7 +28084,7 @@ entities:
       pos: 11.5,61.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -465487.84
+      secondsUntilStateChange: -466632.9
       state: Opening
   - uid: 613
     components:
@@ -28149,7 +28149,7 @@ entities:
       pos: 44.5,-5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -403317.56
+      secondsUntilStateChange: -404462.62
       state: Opening
   - uid: 623
     components:
@@ -68090,12 +68090,12 @@ entities:
     - type: Transform
       pos: 60.5,-41.5
       parent: 2
-  - uid: 41054
+  - uid: 41051
     components:
     - type: Transform
       pos: 74.5,14.5
       parent: 2
-  - uid: 41075
+  - uid: 41072
     components:
     - type: Transform
       pos: 55.5,30.5
@@ -68370,127 +68370,127 @@ entities:
     - type: Transform
       pos: -0.5,10.5
       parent: 41170
-  - uid: 41679
+  - uid: 41678
     components:
     - type: Transform
       pos: 54.5,30.5
       parent: 2
-  - uid: 41681
+  - uid: 41680
     components:
     - type: Transform
       pos: 52.5,30.5
       parent: 2
-  - uid: 41682
+  - uid: 41681
     components:
     - type: Transform
       pos: 51.5,30.5
       parent: 2
-  - uid: 41683
+  - uid: 41682
     components:
     - type: Transform
       pos: 50.5,30.5
       parent: 2
-  - uid: 41685
+  - uid: 41684
     components:
     - type: Transform
       pos: 57.5,30.5
       parent: 2
-  - uid: 41686
+  - uid: 41685
     components:
     - type: Transform
       pos: 93.5,13.5
       parent: 2
-  - uid: 41687
+  - uid: 41686
     components:
     - type: Transform
       pos: 94.5,13.5
       parent: 2
-  - uid: 41688
+  - uid: 41687
     components:
     - type: Transform
       pos: 90.5,18.5
       parent: 2
-  - uid: 41689
+  - uid: 41688
     components:
     - type: Transform
       pos: 90.5,17.5
       parent: 2
-  - uid: 41690
+  - uid: 41689
     components:
     - type: Transform
       pos: 91.5,18.5
       parent: 2
-  - uid: 41691
+  - uid: 41690
     components:
     - type: Transform
       pos: 83.5,14.5
       parent: 2
-  - uid: 41692
+  - uid: 41691
     components:
     - type: Transform
       pos: 83.5,15.5
       parent: 2
-  - uid: 41693
+  - uid: 41692
     components:
     - type: Transform
       pos: 82.5,15.5
       parent: 2
-  - uid: 41694
+  - uid: 41693
     components:
     - type: Transform
       pos: 85.5,14.5
       parent: 2
-  - uid: 41695
+  - uid: 41694
     components:
     - type: Transform
       pos: 85.5,15.5
       parent: 2
-  - uid: 41696
+  - uid: 41695
     components:
     - type: Transform
       pos: 86.5,15.5
       parent: 2
-  - uid: 41697
+  - uid: 41696
     components:
     - type: Transform
       pos: 84.5,11.5
       parent: 2
-  - uid: 41698
+  - uid: 41697
     components:
     - type: Transform
       pos: 85.5,11.5
       parent: 2
-  - uid: 41699
+  - uid: 41698
     components:
     - type: Transform
       pos: 82.5,11.5
       parent: 2
-  - uid: 41700
+  - uid: 41699
     components:
     - type: Transform
       pos: 81.5,11.5
       parent: 2
-  - uid: 41701
+  - uid: 41700
     components:
     - type: Transform
       pos: 75.5,14.5
       parent: 2
-  - uid: 41702
+  - uid: 41701
     components:
     - type: Transform
       pos: 75.5,15.5
       parent: 2
-  - uid: 41703
+  - uid: 41702
     components:
     - type: Transform
       pos: 74.5,17.5
       parent: 2
-  - uid: 41704
+  - uid: 41703
     components:
     - type: Transform
       pos: 75.5,17.5
       parent: 2
-  - uid: 41705
+  - uid: 41704
     components:
     - type: Transform
       pos: 75.5,18.5
@@ -91753,10 +91753,15 @@ entities:
     - type: Transform
       pos: 84.5,-3.5
       parent: 2
-  - uid: 16251
+  - uid: 16250
     components:
     - type: Transform
       pos: 82.5,-4.5
+      parent: 2
+  - uid: 41075
+    components:
+    - type: Transform
+      pos: 84.5,-4.5
       parent: 2
   - uid: 41153
     components:
@@ -91796,19 +91801,14 @@ entities:
   - uid: 41503
     components:
     - type: Transform
-      pos: 84.5,-4.5
+      pos: 83.5,-4.5
       parent: 2
   - uid: 41505
     components:
     - type: Transform
-      pos: 83.5,-4.5
-      parent: 2
-  - uid: 41666
-    components:
-    - type: Transform
       pos: 85.5,-4.5
       parent: 2
-  - uid: 41684
+  - uid: 41683
     components:
     - type: Transform
       pos: 84.5,-2.5
@@ -110534,7 +110534,7 @@ entities:
         moles:
           Oxygen: 1.7459903
           Nitrogen: 6.568249
-  - uid: 41667
+  - uid: 41666
     components:
     - type: MetaData
       name: ящик с различными имплантами
@@ -110558,6 +110558,7 @@ entities:
           showEnts: False
           occludes: True
           ents:
+          - 41667
           - 41668
           - 41669
           - 41670
@@ -110567,7 +110568,6 @@ entities:
           - 41674
           - 41675
           - 41676
-          - 41677
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -111194,14 +111194,14 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconArtifactLab
   entities:
-  - uid: 31843
+  - uid: 31398
     components:
     - type: Transform
       pos: -28.5,-44.5
       parent: 2
 - proto: DefaultStationBeaconAtmospherics
   entities:
-  - uid: 16252
+  - uid: 16251
     components:
     - type: Transform
       pos: -59.5,29.5
@@ -111222,7 +111222,7 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconBridge
   entities:
-  - uid: 41055
+  - uid: 41054
     components:
     - type: Transform
       pos: -0.5,17.5
@@ -111272,7 +111272,7 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconCargoBay
   entities:
-  - uid: 41072
+  - uid: 41055
     components:
     - type: Transform
       pos: 36.5,50.5
@@ -111474,7 +111474,7 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconMedbay
   entities:
-  - uid: 16516
+  - uid: 16293
     components:
     - type: Transform
       pos: 27.5,-29.5
@@ -111680,7 +111680,7 @@ entities:
     - type: Transform
       pos: 20.5,46.5
       parent: 2
-  - uid: 16250
+  - uid: 16249
     components:
     - type: Transform
       pos: 6.5,28.5
@@ -111712,15 +111712,20 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconTelecoms
   entities:
-  - uid: 16249
+  - uid: 41705
     components:
     - type: Transform
-      pos: -113.5,39.5
+      pos: -123.5,38.5
       parent: 2
     - type: NavMapBeacon
-      text: Сервер
+      text: Сервера камер
     - type: WarpPoint
-      location: Сервер
+      location: Сервера камер
+  - uid: 41723
+    components:
+    - type: Transform
+      pos: -113.5,40.5
+      parent: 2
 - proto: DefaultStationBeaconTheater
   entities:
   - uid: 16187
@@ -111735,7 +111740,7 @@ entities:
     - type: Transform
       pos: -25.5,12.5
       parent: 2
-  - uid: 16254
+  - uid: 16252
     components:
     - type: Transform
       pos: 22.5,9.5
@@ -111753,7 +111758,7 @@ entities:
       parent: 2
 - proto: DefaultStationBeaconWardensOffice
   entities:
-  - uid: 16293
+  - uid: 16254
     components:
     - type: Transform
       pos: 52.5,4.5
@@ -113313,6 +113318,11 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -17.5,14.5
+      parent: 2
+  - uid: 16516
+    components:
+    - type: Transform
+      pos: 47.5,7.5
       parent: 2
   - uid: 16517
     components:
@@ -119094,11 +119104,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 56.5,-24.5
       parent: 2
-  - uid: 25968
-    components:
-    - type: Transform
-      pos: 47.5,7.5
-      parent: 2
 - proto: DisposalTrunk
   entities:
   - uid: 16484
@@ -123127,18 +123132,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -52.5,51.5
       parent: 2
-  - uid: 18112
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -49.5,54.5
-      parent: 2
-  - uid: 18113
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -55.5,54.5
-      parent: 2
   - uid: 18114
     components:
     - type: Transform
@@ -125122,7 +125115,7 @@ entities:
       pos: -53.5,-32.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -364905.38
+      secondsUntilStateChange: -366050.44
       state: Closing
   - uid: 18337
     components:
@@ -125244,7 +125237,7 @@ entities:
       pos: -54.5,-23.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -429832.3
+      secondsUntilStateChange: -430977.38
       state: Closing
   - uid: 18355
     components:
@@ -125852,7 +125845,7 @@ entities:
       pos: -4.5,-7.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74499.45
+      secondsUntilStateChange: -75644.516
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 26747.2399214
@@ -126311,7 +126304,7 @@ entities:
       pos: 52.5,-33.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -330803.1
+      secondsUntilStateChange: -331948.16
       state: Closing
     - type: Firelock
       emergencyCloseCooldown: 7442.325893
@@ -126463,7 +126456,7 @@ entities:
       pos: -23.5,-32.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -441521.1
+      secondsUntilStateChange: -442666.16
       state: Closing
   - uid: 18512
     components:
@@ -126795,7 +126788,7 @@ entities:
       pos: -16.5,-19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -429941.1
+      secondsUntilStateChange: -431086.16
       state: Closing
   - uid: 18573
     components:
@@ -199181,38 +199174,38 @@ entities:
       parent: 2
 - proto: MindShieldImplanter
   entities:
+  - uid: 41667
+    components:
+    - type: Transform
+      parent: 41666
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+      storage: 41666
   - uid: 41668
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41669
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41670
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
-  - uid: 41671
-    components:
-    - type: Transform
-      parent: 41667
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
 - proto: MiningDrill
   entities:
   - uid: 28767
@@ -202220,7 +202213,7 @@ entities:
     - type: Transform
       pos: -70.5,12.5
       parent: 2
-  - uid: 41680
+  - uid: 41679
     components:
     - type: Transform
       pos: 70.5,24.5
@@ -215951,12 +215944,12 @@ entities:
     - type: Transform
       pos: -71.5,56.5
       parent: 2
-  - uid: 31398
+  - uid: 31377
     components:
     - type: Transform
       pos: -18.5,-51.5
       parent: 2
-  - uid: 41051
+  - uid: 31843
     components:
     - type: Transform
       pos: -20.5,-51.5
@@ -222666,7 +222659,7 @@ entities:
       parent: 2
 - proto: SheetUranium1
   entities:
-  - uid: 41678
+  - uid: 41677
     components:
     - type: Transform
       pos: 70.70423,23.657639
@@ -224763,13 +224756,7 @@ entities:
       parent: 2
     - type: DeviceLinkSource
       linkedPorts:
-        18113:
-        - - Pressed
-          - Toggle
         18111:
-        - - Pressed
-          - Toggle
-        18112:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -242707,6 +242694,18 @@ entities:
     - type: Transform
       pos: -71.5,-9.5
       parent: 2
+- proto: TeslaGroundingRod
+  entities:
+  - uid: 18112
+    components:
+    - type: Transform
+      pos: -55.5,54.5
+      parent: 2
+  - uid: 18113
+    components:
+    - type: Transform
+      pos: -49.5,54.5
+      parent: 2
 - proto: ThermomachineHeaterMachineCircuitBoard
   entities:
   - uid: 35234
@@ -244090,54 +244089,54 @@ entities:
       canCollide: False
 - proto: TrackingImplanter
   entities:
+  - uid: 41671
+    components:
+    - type: Transform
+      parent: 41666
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+      storage: 41666
   - uid: 41672
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41673
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41674
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41675
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
   - uid: 41676
     components:
     - type: Transform
-      parent: 41667
+      parent: 41666
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-      storage: 41667
-  - uid: 41677
-    components:
-    - type: Transform
-      parent: 41667
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 41667
+      storage: 41666
 - proto: TrainingBomb
   entities:
   - uid: 35365
@@ -246463,6 +246462,11 @@ entities:
     - type: Transform
       pos: 25.5,-70.5
       parent: 2
+  - uid: 25968
+    components:
+    - type: Transform
+      pos: -17.5,-52.5
+      parent: 2
   - uid: 30147
     components:
     - type: Transform
@@ -246472,11 +246476,6 @@ entities:
     components:
     - type: Transform
       pos: -114.5,33.5
-      parent: 2
-  - uid: 31377
-    components:
-    - type: Transform
-      pos: -17.5,-52.5
       parent: 2
   - uid: 35578
     components:
@@ -273693,7 +273692,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -374942.12
+      secondsUntilStateChange: -376087.2
       state: Opening
   - uid: 40753
     components:
