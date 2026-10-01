@@ -33,10 +33,10 @@
       shader: unshaded
     state: base
   - type: PointLight
-    color: "#FFE9D9" # erida edit
-    energy: 0.65 # erida edit
+    color: "#FFDDB4" # erida edit
+    energy: 0.85 # erida edit
     radius: 10
-    softness: 1.4 # erida edit
+    softness: 1.8 # erida edit
     offset: "0, -0.5"
   - type: Damageable
     damageContainer: Inorganic
@@ -176,9 +176,9 @@
     hasLampOnSpawn: LedLightTube
   - type: PointLight
     radius: 15
-    energy: 0.8 # erida edit
-    softness: 1.3 # erida edit
-    color: "#F0EFF5" # erida edit
+    energy: 1 # erida edit
+    softness: 1.7 # erida edit
+    color: "#E9EEFF" # erida edit
   - type: DamageOnInteract
     damage:
       types:
@@ -193,7 +193,7 @@
   - type: PointLight
     radius: 10
     energy: 2.5 # erida edit
-    softness: 0.8 # erida edit
+    softness: 1.2 # erida edit
     color: "#FFAF38"
 
 #Exterior lights
@@ -208,7 +208,7 @@
   - type: PointLight
     radius: 12
     energy: 2.5 # erida edit
-    softness: 0.8 # erida edit
+    softness: 1.2 # erida edit
     color: "#B4FCF0"
   - type: DamageOnInteract
     damage:
@@ -224,7 +224,7 @@
   - type: PointLight
     radius: 12
     energy: 2.5 # erida edit
-    softness: 0.8 # erida edit
+    softness: 1.2 # erida edit
     color: "#B4FCF0"
 
 #Sodium lights
@@ -239,7 +239,7 @@
   - type: PointLight
     radius: 10
     energy: 2.5 # erida edit
-    softness: 0.8 # erida edit
+    softness: 1.2 # erida edit
     color: "#FFAF38"
   - type: DamageOnInteract
     damage:
@@ -254,9 +254,9 @@
   components:
   - type: PointLight
     radius: 15
-    energy: 0.8 # erida edit
-    softness: 1.3 # erida edit
-    color: "#F0EFF5" # erida edit
+    energy: 1 # erida edit
+    softness: 1.7 # erida edit
+    color: "#E9EEFF" # erida edit
 
 #Small lights
 - type: entity
@@ -275,10 +275,9 @@
       sprite: _Erida/Structures/Wallmounts/Lighting/light_small.rsi
       state: base
     - type: PointLight
-      energy: 0.8 # erida edit
+      energy: 1 # erida edit
       radius: 6
-      softness: 1.3 # erida edit
-      enabled: true
+      softness: 1.7 # erida edit
       color: "#FFD1A3"
     - type: Physics
       bodyType: Static
@@ -375,9 +374,9 @@
   - type: PointLight
     enabled: true
     radius: 8
-    energy: 0.8 # erida edit
-    softness: 1.3 # erida edit
-    color: "#F0EFF5" # erida edit
+    energy: 1 # erida edit
+    softness: 1.7 # erida edit
+    color: "#E9EEFF" # erida edit
   - type: PoweredLight
     hasLampOnSpawn: LedLightBulb
   - type: DamageOnInteract
@@ -534,8 +533,8 @@
     hasLampOnSpawn: LightTubeCrystalCyan
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#47f8ff"
   - type: DamageOnInteract
     damage:
@@ -550,8 +549,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#47f8ff"
 
 - type: entity
@@ -563,8 +562,8 @@
     hasLampOnSpawn: LightTubeCrystalBlue
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#39a1ff"
   - type: DamageOnInteract
     damage:
@@ -579,8 +578,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#39a1ff"
 
 - type: entity
@@ -592,8 +591,8 @@
     hasLampOnSpawn: LightTubeCrystalYellow
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ffde46"
   - type: DamageOnInteract
     damage:
@@ -608,8 +607,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ffde46"
 
 - type: entity
@@ -621,8 +620,8 @@
     hasLampOnSpawn: LightTubeCrystalPink
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ff66cc"
   - type: DamageOnInteract
     damage:
@@ -637,8 +636,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ff66cc"
 
 - type: entity
@@ -650,8 +649,8 @@
     hasLampOnSpawn: LightTubeCrystalOrange
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ff8227"
   - type: DamageOnInteract
     damage:
@@ -666,8 +665,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#ff8227"
 
 - type: entity
@@ -709,8 +708,8 @@
     hasLampOnSpawn: LightTubeCrystalRed
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#fb4747"
   - type: DamageOnInteract
     damage:
@@ -725,8 +724,8 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#fb4747"
 
 - type: entity
@@ -738,8 +737,8 @@
     hasLampOnSpawn: LightTubeCrystalGreen
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#52ff39"
   - type: DamageOnInteract
     damage:
@@ -754,6 +753,6 @@
   components:
   - type: PointLight
     radius: 8
-    energy: 1.5 # erida edit
-    softness: 0.8 # erida edit
+    energy: 1.7 # erida edit
+    softness: 1.2 # erida edit
     color: "#52ff39"

@@ -146,7 +146,7 @@
   components:
   - type: LightBulb
     bulb: Bulb
-    color: "#F0EFF5" # erida edit
+    color: "#E9EEFF" # erida edit
     lightEnergy: 0.8 # erida edit
     lightRadius: 8
     lightSoftness: 1.3 # erida edit
@@ -239,7 +239,7 @@
   description: A light fixture.
   components:
   - type: LightBulb
-    color: "#FFE9D9" # erida edit
+    color: "#FFDDB4" # erida edit
     lightEnergy: 1.0 # erida edit
     lightRadius: 10
     lightSoftness: 1.4 # erida edit
@@ -275,7 +275,7 @@
   id: LedLightTube
   components:
   - type: LightBulb
-    color: "#F0EFF5" # erida edit
+    color: "#E9EEFF" # erida edit
     lightEnergy: 0.8 # erida edit
     lightRadius: 15
     lightSoftness: 1.3 # erida edit
