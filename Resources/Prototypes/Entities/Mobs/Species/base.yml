@@ -261,6 +261,7 @@
   - type: MindControllable # Goobstation
   - type: VisibleContraband # Goobstation
   - type: MomentumSteering # Goobstation - No steer
+  - type: DirectionalEmote # Erida
 
 - type: entity
   save: false
@@ -354,7 +355,7 @@
     - Parasite
   - type: ObraDinnBody # Goobstation
   # </Goobstation>
-  - type: TTS # Erida 
+  - type: TTS # Erida
 
 - type: entity
   save: false
