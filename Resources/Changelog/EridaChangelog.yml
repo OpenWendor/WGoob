@@ -1876,3 +1876,20 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/70
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: ' [Tweak] Salvage magnet offers can now be cancelled '
+- author: rOmannn299
+  changes:
+    - type: Add
+      message: Стиральные машины в туалеты, бриг, мед и на мостик
+    - type: Add
+      message: Измельчитель слаймов и дренажи в ксенобио
+    - type: Tweak
+      message: Незначительные правки техов и секреток
+    - type: Tweak
+      message: Исправлены некоторые стулья и скамейки
+    - type: Fix
+      message: Доступы в комнату журналиста и радиоведущего
+  id: 137
+  time: '2026-10-05T22:52:13.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/72
+  avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
+  title: WonderDelta
