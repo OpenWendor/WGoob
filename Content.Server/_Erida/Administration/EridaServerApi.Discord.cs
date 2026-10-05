@@ -35,7 +35,7 @@ public sealed partial class EridaServerApi
         }
     }
 
-    public async Task<LinkStatus?> GetLinkedUserData(Guid user)
+    public async Task<LinkStatus?> GetLinkedUserDataOrNull(Guid user)
     {
         if (!_isActive)
             return null;
@@ -49,9 +49,6 @@ public sealed partial class EridaServerApi
                 return null;
 
             var result = await resp.Content.ReadFromJsonAsync<LinkStatus>();
-
-            if (result != null)
-                result.Verified = result.Linked;
 
             return result;
         }
