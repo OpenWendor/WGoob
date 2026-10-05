@@ -55,7 +55,7 @@ public sealed class DiscordLinkingSystem : EntitySystem
     /// <param name="session"></param>
     private async Task RefreshPlayer(ICommonSession session)
     {
-        var status = await _eridaServerApi.GetLinkedUserData(session.UserId);
+        var status = await _eridaServerApi.GetLinkedUserDataOrNull(session.UserId);
         if (status != null)
             _cachedPlayers[session.UserId] = status;
     }
@@ -107,7 +107,7 @@ public sealed class DiscordLinkingSystem : EntitySystem
     /// </returns>
     private async Task<LinkStatus> GetUserInfo(NetUserId userId)
     {
-        return await _eridaServerApi.GetLinkedUserData(userId)
+        return await _eridaServerApi.GetLinkedUserDataOrNull(userId)
             ?? new LinkStatus();
     }
 
