@@ -1893,3 +1893,14 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/72
   avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
   title: WonderDelta
+- author: OpenWendor
+  changes:
+    - type: Add
+      message: Вещи InteQ
+    - type: Add
+      message: Сизо InteQ на лавалэнде
+  id: 138
+  time: '2026-10-06T00:43:10.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/71
+  avatar_url: https://avatars.githubusercontent.com/u/178937366?v=4
+  title: InteQ
