@@ -11,3 +11,6 @@ leash-remove-collar-success = Вам удаётся снять ошейник.
 leash-remove-collar-blocked = Сначала нужно расстегнуть ошейник.
 leash-cannot-pick-up = Поводок натянулся.
 leash-cannot-carry = Поводок натянулся.
+
+ent-LPPLeash = поводок
+    .desc = Прочный поводок, который пристёгивается к ошейнику.
