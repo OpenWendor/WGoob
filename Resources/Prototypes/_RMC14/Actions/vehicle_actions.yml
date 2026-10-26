@@ -1,0 +1,13 @@
+# erida edit
+- type: entity
+  id: ActionVehicleSelectHardpoint
+  name: Select Hardpoint
+  description: Select this hardpoint for firing.
+  components:
+  - type: InstantAction
+    event: !type:VehicleHardpointSelectActionEvent
+  - type: Action
+    autoPopulate: false
+    temporary: false
+    raiseOnUser: true
+    itemIconStyle: BigItem
