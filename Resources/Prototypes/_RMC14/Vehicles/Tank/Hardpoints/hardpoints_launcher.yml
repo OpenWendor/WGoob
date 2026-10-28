@@ -40,6 +40,16 @@
         reagents:
         - ReagentId: Napalm
           Quantity: 60
+  # erida edit
+  - type: BallisticAmmoProvider
+    cycleable: false
+    proto: VehicleCartridgeTankFlamer
+    capacity: 60
+  - type: VehicleHardpointAmmo
+    magazineSize: 60
+    maxStoredMagazines: 1
+  - type: RefillableByBulletBox
+    bulletType: VehicleAmmoBoxDragonFlameTank
   - type: GunFireArc
     arc: 120
   - type: GunMuzzleOffset

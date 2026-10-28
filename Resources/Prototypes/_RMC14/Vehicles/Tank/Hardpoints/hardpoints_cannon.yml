@@ -219,7 +219,7 @@
     pixelOffsetSouth: "0,-40"
     pixelOffsetWest: "-30,0"
   - type: Gun
-    fireRate: 0.5
+    fireRate: 1
     projectileSpeed: 20
     selectedMode: SemiAuto
     availableModes:

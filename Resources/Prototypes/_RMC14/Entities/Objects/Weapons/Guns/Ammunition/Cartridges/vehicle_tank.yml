@@ -124,8 +124,10 @@
     forceSound: true
     damage:
       types:
-        Heat: 30
+        Heat: 85
     soundHit: null
+  - type: IgniteOnCollide
+    fireStacks: 6
   - type: DeleteOnTrigger
   - type: Fixtures
     fixtures:
@@ -207,9 +209,11 @@
     impactEffect: BulletImpactEffect
     damage:
       types:
-        Heat: 22
+        Heat: 45
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+  - type: IgniteOnCollide
+    fireStacks: 4
   - type: DeleteOnTrigger
   - type: Fixtures
     fixtures:

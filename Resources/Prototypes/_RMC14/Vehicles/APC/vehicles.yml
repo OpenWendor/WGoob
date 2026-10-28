@@ -115,6 +115,11 @@
   - type: InputMover
   - type: ItemSlots
     slots:
+      wheel-1:
+        startingItem: RMCAPCWheel
+        whitelist:
+          components:
+          - VehicleWheelItem
       port-gun-north:
         startingItem: VehicleAPCM56FPWPortGunRight
         insertOnInteract: false
@@ -167,16 +172,45 @@
     repairFuelCost: 15
     bypassEntryOnZero: true
   - type: Appearance
-  # erida edit
-  - type: Strap
-    position: Stand
-    blockMovement: false
-  - type: VehicleDriverSeat
-  - type: VehicleWeaponsSeat
+  - type: VehicleEnter
+    interiorPath: /Maps/_RMC14/Vehicles/apc_transport_interior.yml
+    enterDoAfter: 1.0
+    exitDoAfter: 1.0
+    maxPassengers: 10
+    maxXenos: 3
+    entryPoints:
+    - offset: 1.5,0
+      radius: 0.7
+      interiorCoords: 1.55,2.65
+    - offset: -1.5,0
+      radius: 0.7
+      interiorCoords: 1.55,-1.2
 
 - type: entity
   parent: VehicleAPCBase
   id: VehicleAPC
+  components:
+  - type: VehicleEnter
+    interiorPath: /Maps/_RMC14/Vehicles/apc_transport_interior.yml
+    enterDoAfter: 1.0
+    exitDoAfter: 1.0
+    maxPassengers: 18
+    maxXenos: 3
+    reservedPassengerPools:
+    - slots: 2
+      eligibleJobs:
+      - SalvageSpecialist
+    - slots: 1
+      eligibleJobs:
+      - StationEngineer
+      - StationEngineer
+    entryPoints:
+    - offset: 1.5,0
+      radius: 0.7
+      interiorCoords: 1.55,2.65
+    - offset: -1.5,0
+      radius: 0.7
+      interiorCoords: 1.55,-1.2
 
 - type: entity
   parent: VehicleAPCBase
@@ -202,6 +236,36 @@
       visible: false
     - map: [ rmc-wheels ]
       state: wheels_1
+  - type: VehicleEnter
+    interiorPath: /Maps/_RMC14/Vehicles/apc_medical_interior.yml
+    enterDoAfter: 1.0
+    exitDoAfter: 1.0
+    maxPassengers: 11
+    maxXenos: 3
+    reservedPassengerPools:
+    - slots: 2
+      eligibleJobs:
+      - SalvageSpecialist
+    - slots: 1
+      eligibleJobs:
+      - Paramedic
+      - MedicalDoctor
+      - Scientist
+      - ChiefMedicalOfficer
+      - MedicalIntern
+      - MedicalDoctor
+      - StationEngineer
+      - StationEngineer
+    entryPoints:
+    - offset: 1.5,0
+      radius: 0.7
+      interiorCoords: 1.6,2.6
+    - offset: -1.5,0
+      radius: 0.7
+      interiorCoords: 1.6,-1.5
+    - offset: 0,2
+      radius: 0.85
+      interiorCoords: 0.25,-1
 
 - type: entity
   parent: VehicleAPCBase
@@ -227,3 +291,34 @@
       visible: false
     - map: [ rmc-wheels ]
       state: wheels_1
+  - type: VehicleEnter
+    interiorPath: /Maps/_RMC14/Vehicles/apc_command_interior.yml
+    enterDoAfter: 1.0
+    exitDoAfter: 1.0
+    maxPassengers: 12
+    maxXenos: 3
+    reservedPassengerPools:
+    - slots: 2
+      eligibleJobs:
+      - SalvageSpecialist
+    - slots: 1
+      eligibleJobs:
+      - HeadOfPersonnel
+      - HeadOfSecurity
+      - HeadOfPersonnel
+      - Captain
+      - Captain
+    - slots: 1
+      eligibleJobs:
+      - StationEngineer
+      - StationEngineer
+    entryPoints:
+    - offset: 1.5,0
+      radius: 0.7
+      interiorCoords: 1.6,2.6
+    - offset: -1.5,0
+      radius: 0.7
+      interiorCoords: 1.6,-1.5
+    - offset: 0,2
+      radius: 0.85
+      interiorCoords: 0.25,-1
